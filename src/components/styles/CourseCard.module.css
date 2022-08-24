@@ -55,3 +55,29 @@
     font-size: 14px;
     padding: 5px;
 }
+@media only screen and (max-width: 720px) {
+
+    .course{
+        width: 100%;
+    }
+
+    .courseName{
+        font-size: 22px;
+    }
+
+    .price{
+        font-size: 18px;
+    }
+
+    .oldPrice{
+        font-size: 16px;
+    }
+
+    .instructor{
+        font-size: 16px;
+    }
+
+    .bestseller{
+        font-size: 18px;
+    }
+}
