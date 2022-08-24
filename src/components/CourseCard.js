@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faStar} from "@fortawesome/free-solid-svg-icons"
 import img from "../assets/python/course1.jpg"
-import CourseCardCSS from "./CourseCard.module.css"
+import CourseCardCSS from "./styles/CourseCard.module.css"
 
 function CourseCard(props) {
 
