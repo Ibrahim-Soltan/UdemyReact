@@ -1,0 +1,11 @@
+.rating{
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.users{
+    font-size: 0.73rem;
+    font-weight: normal;
+    color: 	#585858;
+}
