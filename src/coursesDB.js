@@ -414,4 +414,7 @@ const descs = {
 	"aws certification":"Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we’ve got the course for you.",
 	"drawing":"Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going."
 };
-export {courses, messages, descs};
+
+
+const categories = ["python","excel","web development","javascript","data science","aws certification","drawing"]
+export {courses, messages, descs,categories};
