@@ -21,18 +21,12 @@
     font-size: 15px;
 }
 
-.instructor, .users{
+.instructor{
     font-size: 0.73rem;
     font-weight: normal;
     color: 	#585858;
 }
 
-.rating{
-    color: orange;
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-}
 
 .price{
     font-weight: bold;
