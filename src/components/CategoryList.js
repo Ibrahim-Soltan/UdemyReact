@@ -1,9 +1,9 @@
 import React from 'react'
-
+import CategoryListCSS from "./styles/CategoryList.module.css"
 function CategoryList(props) {
   return (
-    <ul>{props.categories.map((categoryName,index)=>{
-        return <li key = {categoryName} className={index===0?"acitveCat":"IncativeCat"}>{categoryName}</li>
+    <ul id={CategoryListCSS.categoriesList}>{props.categories.map((categoryName,index)=>{
+        return <li key = {categoryName} className={CategoryListCSS.categoriesListItem}>{categoryName}</li>
     })}</ul>
   )
 }

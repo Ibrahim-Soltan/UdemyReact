@@ -1,0 +1,19 @@
+#categoriesList{
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.categoriesListItem{
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #606060;
+    font-family: "udemy sans",Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+
+.categoriesListItem:hover{
+    color: black;
+}
