@@ -8,7 +8,7 @@ function CourseCard(props) {
 
     const starRating = (stars)=>{
         const iconList = [];
-        for(let i=0;i<Math.floor(stars);i++)iconList.push(<FontAwesomeIcon icon={faStar} />);
+        for(let i=0;i<Math.floor(stars);i++)iconList.push(<FontAwesomeIcon key = {i} icon={faStar} />);
         return iconList;
     }
   return (

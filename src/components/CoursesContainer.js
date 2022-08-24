@@ -5,7 +5,7 @@ function CoursesContainer(props) {
   return (
     <div id={CoursesContainerCSS.courses}>
     {props.courses.map((course)=>{
-        return <CourseCard {...course}></CourseCard>
+        return <CourseCard {...course} key = {`${course.cat}${course.id}`}></CourseCard>
     })}
 </div>
   )
