@@ -1,11 +1,9 @@
 import React from 'react'
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faStar} from "@fortawesome/free-solid-svg-icons"
 import StarRatingCSS from "./styles/StarRating.module.css"
 function StarRating(props) {
     const starRating = (stars)=>{
         const iconList = [];
-        for(let i=0;i<Math.floor(stars);i++)iconList.push(<FontAwesomeIcon key = {i} icon={faStar} />);
+        for(let i=0;i<Math.floor(stars);i++)iconList.push(<i class="fa fa-star" key ={i} aria-hidden="true"></i>);
         return iconList;
     }
   return (

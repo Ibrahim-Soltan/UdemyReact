@@ -1,0 +1,148 @@
+
+nav{
+    white-space: nowrap;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+#smallscreenIcons,
+#smallscreenMenu{
+    display: none;
+}
+
+.logo{
+    height: 50%;
+    margin-left: 20px;
+}
+
+nav > * {
+    cursor: pointer;
+    margin: 0 8px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+nav > button {
+    font-size: 0.9rem;
+    border: none;
+    background: none;
+    color: #1c1d1f;
+}
+
+nav > button:hover{
+    color: blueviolet;
+}
+
+/* Search Bar */
+
+nav > form{
+    margin-right: 20px;
+    display: inline-block;
+    border: black solid 1px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchbar{
+    margin-left: 15px;
+    font-size: 1rem;
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: none;
+    flex: 1;
+}
+
+
+.signup,
+.login,
+.language {
+    border: solid rgb(28, 29, 31) 1px;
+    color: #1c1d1f;
+}
+
+.signup,
+.login {
+    font-weight:bold;   
+}
+
+.login:hover,
+.language:hover {
+    background-color: #f5f5f5;
+    color: #1c1d1f;
+}
+
+.signup:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.login{
+    padding: 10px 20px;
+}
+
+.language{
+    padding: 10px 12px;
+    margin-right: 20px;
+}
+
+.signup{
+    background-color: #1a1f1f;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* Hiding "udemy business" when screen gets smaller */
+@media only screen and (max-width: 1080px) {
+    #udemyBusiness{
+        display: none;
+    }
+  }
+
+/* Hiding "udemy teach" when screen gets smaller */
+@media only screen and (max-width: 920px) {
+    #udemyTeach{
+        display: none;
+    }
+  }
+
+/* Small Screen */
+@media only screen and (max-width: 800px) {
+    /* Nav bar in small screen */
+
+    nav > form, nav > button{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        height: 55px;
+    }
+    #smallscreenIcons, #smallscreenMenu{
+        display: inline-block;
+    }
+
+    #smallscreenMenu{
+        margin-left: 20px;
+    }
+
+    #smallscreenMenu:hover{
+        color: #000000;
+    }
+
+    #smallscreenIcons{
+        margin-right: 10px;
+    }
+
+    #smallscreenIcons > button{
+        margin: auto 10px;
+        cursor: pointer;
+    }
+
+    
+  }

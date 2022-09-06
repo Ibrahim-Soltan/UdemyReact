@@ -9,10 +9,6 @@
     cursor: pointer;
 }
 
-a{
-    all:unset;
-}
-
 .course > *{
     width: 100%;
     text-align: left;
