@@ -1,10 +1,29 @@
-import React from 'react'
-import {courses, messages, descs, categories} from "../coursesDB"
+import React from "react";
 import Category from '../components/Category';
 import CategoryList from '../components/CategoryList';
 import Header from '../components/Header';
 
-function HomePage() {
+function HomePage(props) {
+  const {isLoading, Error, data} = props;
+  const rederFetchedData =() =>{
+    console.log(isLoading);
+    if(data){
+      return(
+        <>
+          <CategoryList categories = {data["categories"]}></CategoryList>
+          <Category courses = {data.courses["python"]} categoryName={"python"} message={data.message["python"]} desc = {data.desc["python"]}></Category>
+        </>
+      )
+    }
+    else if(Error){
+      return <h1>{Error}</h1>
+    }
+    else {
+      //TODO: Add spinner
+      return <h1>Loading Courses .....</h1>
+    }
+  }
+
   return (
     <>
       <Header />
@@ -15,8 +34,7 @@ function HomePage() {
             Choose from 185,000 online video courses with new additions published
             every month
         </p>
-        <CategoryList categories = {categories}></CategoryList>
-        <Category courses = {courses["python"]} categoryName={"python"} message={messages["python"]} desc = {descs["python"]}></Category>
+        {rederFetchedData()}
       </section>
     </main>
   </>
