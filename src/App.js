@@ -12,8 +12,7 @@ function App() {
 
   useEffect(() => {
     setIsLoading(true);
-    // fetch("https://deelay.me/1000/http://localhost:3000/data") For tesing
-    fetch("http://localhost:3000/data")
+    fetch("https://deelay.me/5000/http://localhost:3000/data")
       .then((response) => response.json())
       .then((json) => {
         setIsLoading(false);

@@ -2,11 +2,10 @@ import React from "react";
 import Category from '../components/Category';
 import CategoryList from '../components/CategoryList';
 import Header from '../components/Header';
-
+import LoadingSpinner from "../components/LoadingSpinner"
 function HomePage(props) {
-  const {isLoading, Error, data} = props;
+  const {Error, data} = props;
   const rederFetchedData =() =>{
-    console.log(isLoading);
     if(data){
       return(
         <>
@@ -19,8 +18,7 @@ function HomePage(props) {
       return <h1>{Error}</h1>
     }
     else {
-      //TODO: Add spinner
-      return <h1>Loading Courses .....</h1>
+      return <LoadingSpinner />
     }
   }
 
@@ -37,6 +35,7 @@ function HomePage(props) {
         {rederFetchedData()}
       </section>
     </main>
+    
   </>
   )
 }

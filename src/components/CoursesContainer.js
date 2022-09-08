@@ -7,7 +7,7 @@ function CoursesContainer(props) {
     <div id={CoursesContainerCSS.courses}>
     {props.courses.map((course)=>{
         return (
-        <Link to = "/course">
+        <Link to = "/course" key = {`${course.cat}${course.id}`} >
           <CourseCard {...course} key = {`${course.cat}${course.id}`}></CourseCard>
         </Link>
         )
