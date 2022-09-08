@@ -7,7 +7,7 @@ function SearchBar(){
     return (
         <form>
         <button type="submit">
-          <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-search fa-lg" aria-hidden="true"></i>
         </button>
         <input
           className={NavBarCSS.searchbar}
@@ -22,10 +22,10 @@ function SmallscreenIcons(){
     return (
         <span id={NavBarCSS.smallscreenIcons}>
         <button>
-          <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-search fa-lg" aria-hidden="true"></i>
         </button>
         <button>
-          <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
         </button>
       </span>  
     )
@@ -44,23 +44,22 @@ function NavBar() {
   return (
     <nav>
       <button id={NavBarCSS.smallscreenMenu}>
-        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        <i className="fa fa-bars fa-lg" aria-hidden="true"></i>
       </button>
-      <Link to="/" element>
+      <Link to="/">
         <Logo />
       </Link>
-      {/* <Logo /> */}
       <button>Categories</button>
       <SearchBar />
       <button id={NavBarCSS.udemyBusiness}>Udemy Business</button>
       <button id={NavBarCSS.udemyTeach}>Teach on Udemy</button>
       <button>
-        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+        <i className="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
       </button>
       <button className={NavBarCSS.login}>Log in</button>
       <button className={NavBarCSS.signup}>Sign up</button>
       <button className={NavBarCSS.language}>
-        <i class="fa fa-globe fa-lg" aria-hidden="true"></i>
+        <i className="fa fa-globe fa-lg" aria-hidden="true"></i>
       </button>
       <SmallscreenIcons />
     </nav>
