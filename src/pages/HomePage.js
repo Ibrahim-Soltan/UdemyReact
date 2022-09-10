@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import LoadingSpinner from "../components/LoadingSpinner"
 function HomePage(props) {
   const {Error, data} = props;
-  const rederFetchedData =() =>{
+  const renderFetchedData =() =>{
     if(data){
       return(
         <>
@@ -32,7 +32,7 @@ function HomePage(props) {
             Choose from 185,000 online video courses with new additions published
             every month
         </p>
-        {rederFetchedData()}
+        {renderFetchedData()}
       </section>
     </main>
     

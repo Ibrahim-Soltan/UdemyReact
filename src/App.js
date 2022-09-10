@@ -4,6 +4,7 @@ import CoursePage from './pages/CoursePage';
 import HomePage from './pages/HomePage';
 import { Routes, Route} from "react-router-dom";
 import NavBar from './components/NavBar';
+import SearchPage from './pages/SearchPage';
 function App() {
   const [Post, setPost] = useState();
   const [Error, setError] = useState("");
@@ -12,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://deelay.me/5000/http://localhost:3000/data")
+    fetch("http://localhost:3000/data")
       .then((response) => response.json())
       .then((json) => {
         setIsLoading(false);
@@ -30,6 +31,7 @@ function App() {
       <Routes>
           <Route path="/" element={<HomePage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
           <Route path="/course/" element={<CoursePage />}></Route>
+          <Route path="/search/" element={<SearchPage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
       </Routes>
 
     </div>

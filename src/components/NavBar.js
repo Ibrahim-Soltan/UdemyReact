@@ -1,15 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import NavBarCSS from "./styles/NavBar.module.css"
 import logo from "../assets/logo-udemy.png"
-import {Link} from "react-router-dom"
+import {Link, useSearchParams,useNavigate} from "react-router-dom"
 
 function SearchBar(){
+  const inputRef = useRef(null);
+  const [search, setSearch] = useSearchParams();
+  const navigate = useNavigate();
+  const handleSearch = ()=>{
+    navigate("/search/");
+    setSearch({search:inputRef.current.value});
+    navigate({
+      pathname: "/search/",
+      search: `?search=${inputRef.current.value}`,
+    }); 
+  }
     return (
         <form>
-        <button type="submit">
+        <button type="submit" onClick={(event)=>{
+          event.preventDefault();
+          if(inputRef.current.value && inputRef.current.value!==search.get("search"))handleSearch();
+        }}>
           <i className="fa fa-search fa-lg" aria-hidden="true"></i>
         </button>
-        <input
+        <input ref = {inputRef}
           className={NavBarCSS.searchbar}
           type="text"
           placeholder="Search for anything"
