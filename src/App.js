@@ -30,7 +30,7 @@ function App() {
       <NavBar />
       <Routes>
           <Route path="/" element={<HomePage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
-          <Route path="/course/" element={<CoursePage />}></Route>
+          <Route path="/course/:courseTitle" element={<CoursePage />}></Route>
           <Route path="/search/" element={<SearchPage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
       </Routes>
 

@@ -32,7 +32,7 @@ const searching = (courses,searchkeywords)=>{
       let cat = courses[catName];
       for(let course of cat){
           
-          let courseName = course.name.toLowerCase();
+          let courseName = course.title.toLowerCase();
           
           courseName = courseName.split(" ");
           
