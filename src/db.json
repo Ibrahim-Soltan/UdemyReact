@@ -10,6 +10,12 @@
 					"description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
 					"link": "/course/pythonforbeginners/",
 					"img": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+					"onDemandVidhrs":"14",
+					"articles":"1",
+					"downloadableResources" :"3",
+					"fullTimeAccess":true,
+					"mobileTVAccess":true,
+					"certificate":true,
 					"instructors": [
 					  {
 						"id": "l7w3s36y1o69rvs3otfj",

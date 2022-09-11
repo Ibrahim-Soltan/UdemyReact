@@ -1,10 +1,11 @@
 import React from 'react'
 import {useLocation} from "react-router-dom"
+import FloatingCourseCard from '../components/FloatingCourseCard';
 function CoursePage() {
   const courseInfo = useLocation().state.Info;
   return (
     <div>
-        <h1>{courseInfo.title}</h1>
+        <FloatingCourseCard {... courseInfo}/>
     </div>
   )
 }
