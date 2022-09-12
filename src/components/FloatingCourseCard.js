@@ -23,6 +23,7 @@ function FloatingCourseCard(props) {
           <span className={CardCSS.guarantee}>30-Day Money-Back Guarantee</span>
           <h5 className={CardCSS.featuresTitle}>This course includes:</h5>
           <ul className={CardCSS.features}>
+          {/* TODO: Features Icons */}
               {props.onDemandVidhrs!==0 && <li><i className="fa-solid fa-display"aria-hidden="true"></i>  {`${props.onDemandVidhrs} hours on-demand video`}</li>}
               {props.articles!==0 && <li>{`${props.articles} article`}</li>}
               {props.downloadableResources && <li>{`${props.downloadableResources} downloadable resources`}</li>}

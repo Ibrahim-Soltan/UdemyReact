@@ -1,11 +1,15 @@
 import React from 'react'
 import {useLocation} from "react-router-dom"
-import FloatingCourseCard from '../components/FloatingCourseCard';
+import CoursePageHeader from '../components/CoursePageHeader';
+import CoursePageMain from '../components/CoursePageMain';
+import CoursePageNavBar from '../components/CoursePageNavBar';
 function CoursePage() {
   const courseInfo = useLocation().state.Info;
   return (
     <div>
-        <FloatingCourseCard {... courseInfo}/>
+        <CoursePageHeader {... courseInfo}/>
+        <CoursePageNavBar />
+        <CoursePageMain {... courseInfo}/>
     </div>
   )
 }

@@ -1,10 +1,8 @@
 import React from 'react'
 import CourseCardCSS from "./styles/CourseCard.module.css"
 import StarRating from './StarRating'
-
-function CourseCard(props) {
-  const getInstructorsNames = (instructorsNames,instructor,idx)=>idx===0?instructor.name:instructorsNames +", "+instructor.name;
-  
+import getInstructorsNames from "./util/instructorsNames.js"
+function CourseCard(props) {  
   return (
         <div className={CourseCardCSS.course}>
         <img src={props.img} alt="course banner" />
