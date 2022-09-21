@@ -1,0 +1,45 @@
+.btn{
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: bold;
+    border : 1px solid #d1d7dc;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.btn>span{
+    display: block;
+}
+.btn, .toggle{
+    padding: 10px 40px;
+    border : 1px solid #d1d7dc;
+    list-style-type: none;
+}
+
+.lesson{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: block;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.lesson > span{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+
+/* .label{
+    border: solid 2px red;
+} */
+
+.totaltime{
+    /* border: solid 2px red; */
+    font-weight: normal;
+    font-size: 1rem;
+}

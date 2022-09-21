@@ -3,6 +3,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
+    margin-bottom: 30px;
 }
 
 .container > h2{
@@ -20,6 +21,5 @@
 }
 
 .learnitems > li{
-    white-space: nowrap;
     padding: 5px 0px;
 }

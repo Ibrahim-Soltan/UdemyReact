@@ -53,7 +53,7 @@
 					  },
 					  {
 						"id": "l7w3s358fbmmojtkld7",
-						"text": "Become an experienced Python Programmer"
+						"text": "Become a Python Programmer"
 					  },
 					  {
 						"id": "l7w3s358e7gl5i5ptbu",
@@ -998,6 +998,822 @@
 					  {
 						"id": "l7w3s36zad1gc76ilrm",
 						"text": "So what are you waiting for? Jumpstart your programming journey and dive into the world of Python by enrolling in this course today!"
+					  }
+					]
+				  },
+				  {
+					"id": "l7yihao0cbvn22omq15",
+					"title": "Learning Python for Data Analysis and Visualization",
+					"description": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+					"link": "/course/learning-python-for-data-analysis-and-visualization/",
+					"img": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+					"instructors": [
+					  {
+						"id": "l7yihao0ulglvj6m8l",
+						"name": "Jose Portilla",
+						"job": "Head of Data Science at Pierian Training",
+						"img": "https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg",
+						"rating": 4.6,
+						"reviews": 941856,
+						"students": 3016209,
+						"courses": 54,
+						"description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings.\n\nShow more"
+					  }
+					],
+					"rating": 4.4,
+					"enrollments": 191615,
+					"totalreviews": 18141,
+					"price": 1599.99,
+					"oldprice": 1599.99,
+					"lastupdated": "9/2019",
+					"learnitems": [
+					  {
+						"id": "l7yihamovqeodta86db",
+						"text": "Have an intermediate skill level of Python programming."
+					  },
+					  {
+						"id": "l7yihamovx1sqfi9v89",
+						"text": "Use the Jupyter Notebook Environment."
+					  },
+					  {
+						"id": "l7yihamoazmbqzovvpi",
+						"text": "Use the numpy library to create and manipulate arrays."
+					  },
+					  {
+						"id": "l7yihamofun0owve60k",
+						"text": "Use the pandas module with Python to create and structure data."
+					  },
+					  {
+						"id": "l7yihamou17s104fn6j",
+						"text": "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets."
+					  },
+					  {
+						"id": "l7yihamoxsv1zmbk35m",
+						"text": "Create data visualizations using matplotlib and the seaborn modules with python."
+					  },
+					  {
+						"id": "l7yihamot0n2rk2zvcj",
+						"text": "Have a portfolio of various data analysis projects."
+					  }
+					],
+					"totallength": "15 sections • 110 lectures • 21h 5m total length",
+					"lectures": [
+					  {
+						"id": "l7yihan5gb7u0hkpv8j",
+						"title": "Intro to Course and Python",
+						"totalduration": "2 lectures • 7min",
+						"lessons": [
+						  {
+							"id": "l7yihanal40x6ns4vj",
+							"name": "Course Intro",
+							"duration": "03:52"
+						  },
+						  {
+							"id": "l7yihanar3yqtp47m2k",
+							"name": "Course FAQs",
+							"duration": "03:12"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihana7cje5sezqmd",
+						"title": "Setup",
+						"totalduration": "3 lectures • 33min",
+						"lessons": [
+						  {
+							"id": "l7yihanb0h12opvngf59",
+							"name": "Installation Setup and Overview",
+							"duration": "07:16"
+						  },
+						  {
+							"id": "l7yihanc5917qafz1pr",
+							"name": "IDEs and Course Resources",
+							"duration": "10:56"
+						  },
+						  {
+							"id": "l7yihancv56vvg43t4e",
+							"name": "iPython/Jupyter Notebook Overview",
+							"duration": "14:57"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanc2dq8ozqv4ym",
+						"title": "Learning Numpy",
+						"totalduration": "8 lectures • 1hr 7min",
+						"lessons": [
+						  {
+							"id": "l7yihanc7p5zjdcua7a",
+							"name": "Intro to numpy",
+							"duration": "00:24"
+						  },
+						  {
+							"id": "l7yihane07bzy70liknx",
+							"name": "Creating arrays",
+							"duration": "07:27"
+						  },
+						  {
+							"id": "l7yihaneo49dolgqvjg",
+							"name": "Using arrays and scalars",
+							"duration": "04:41"
+						  },
+						  {
+							"id": "l7yihanexv7qfj2co5m",
+							"name": "Indexing Arrays",
+							"duration": "14:19"
+						  },
+						  {
+							"id": "l7yihanex58ax0u6sd",
+							"name": "Array Transposition",
+							"duration": "04:07"
+						  },
+						  {
+							"id": "l7yihanezeg5h1m0dhs",
+							"name": "Universal Array Function",
+							"duration": "06:04"
+						  },
+						  {
+							"id": "l7yihane6tgmmgo9urs",
+							"name": "Array Processing",
+							"duration": "21:48"
+						  },
+						  {
+							"id": "l7yihane6sz4hfwrsv",
+							"name": "Array Input and Output",
+							"duration": "07:59"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanejewxqc7kxs",
+						"title": "Intro to Pandas",
+						"totalduration": "11 lectures • 2hr 12min",
+						"lessons": [
+						  {
+							"id": "l7yihanemjgccg2khgr",
+							"name": "Series",
+							"duration": "13:58"
+						  },
+						  {
+							"id": "l7yihangki3xv194lfm",
+							"name": "DataFrames",
+							"duration": "17:46"
+						  },
+						  {
+							"id": "l7yihangay3rrrkpsd4",
+							"name": "Index objects",
+							"duration": "04:59"
+						  },
+						  {
+							"id": "l7yihang4doqujt1jdw",
+							"name": "Reindex",
+							"duration": "15:54"
+						  },
+						  {
+							"id": "l7yihangmocn2nzebeo",
+							"name": "Drop Entry",
+							"duration": "05:41"
+						  },
+						  {
+							"id": "l7yihang0pr1dy7w66p",
+							"name": "Selecting Entries",
+							"duration": "10:22"
+						  },
+						  {
+							"id": "l7yihangpnrkwqksnca",
+							"name": "Data Alignment",
+							"duration": "10:14"
+						  },
+						  {
+							"id": "l7yihang6wevm4nfs0g",
+							"name": "Rank and Sort",
+							"duration": "05:38"
+						  },
+						  {
+							"id": "l7yihangqvvtfdolvrl",
+							"name": "Summary Statistics",
+							"duration": "22:35"
+						  },
+						  {
+							"id": "l7yihang1qiagzc6fgxk",
+							"name": "Missing Data",
+							"duration": "11:37"
+						  },
+						  {
+							"id": "l7yihangxeevh4got2",
+							"name": "Index Hierarchy",
+							"duration": "13:32"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihang40oga2ekoom",
+						"title": "Working with Data: Part 1",
+						"totalduration": "4 lectures • 23min",
+						"lessons": [
+						  {
+							"id": "l7yihanhxd8b3fgp7pm",
+							"name": "Reading and Writing Text Files",
+							"duration": "10:03"
+						  },
+						  {
+							"id": "l7yihanicjdfbedcqx4",
+							"name": "JSON with Python",
+							"duration": "04:12"
+						  },
+						  {
+							"id": "l7yihanifh5rscu84si",
+							"name": "HTML with Python",
+							"duration": "04:36"
+						  },
+						  {
+							"id": "l7yihaniq6ly5du6ucc",
+							"name": "Microsoft Excel files with Python",
+							"duration": "03:51"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanimelgolth3bo",
+						"title": "Working with Data: Part 2",
+						"totalduration": "13 lectures • 1hr 44min",
+						"lessons": [
+						  {
+							"id": "l7yihanjul6imi7w2i",
+							"name": "Merge",
+							"duration": "20:31"
+						  },
+						  {
+							"id": "l7yihanlvoovb74a96",
+							"name": "Merge on Index",
+							"duration": "12:36"
+						  },
+						  {
+							"id": "l7yihanl9860fkrvnjk",
+							"name": "Concatenate",
+							"duration": "09:19"
+						  },
+						  {
+							"id": "l7yihanlfo046jk492u",
+							"name": "Combining DataFrames",
+							"duration": "10:20"
+						  },
+						  {
+							"id": "l7yihanlunlfy7b4amh",
+							"name": "Reshaping",
+							"duration": "07:51"
+						  },
+						  {
+							"id": "l7yihanlcvdippvi0hv",
+							"name": "Pivoting",
+							"duration": "05:31"
+						  },
+						  {
+							"id": "l7yihanlieoz2u18lpb",
+							"name": "Duplicates in DataFrames",
+							"duration": "05:54"
+						  },
+						  {
+							"id": "l7yihanle45s5209ulg",
+							"name": "Mapping",
+							"duration": "04:12"
+						  },
+						  {
+							"id": "l7yihanljqubqpp3p2",
+							"name": "Replace",
+							"duration": "03:15"
+						  },
+						  {
+							"id": "l7yihanlnskwxtu5sd",
+							"name": "Rename Index",
+							"duration": "05:55"
+						  },
+						  {
+							"id": "l7yihanlmzpreempcn",
+							"name": "Binning",
+							"duration": "06:16"
+						  },
+						  {
+							"id": "l7yihanl8g6iz07hhs5",
+							"name": "Outliers",
+							"duration": "06:52"
+						  },
+						  {
+							"id": "l7yihanld4x1a0roczi",
+							"name": "Permutation",
+							"duration": "05:21"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanlqqkg6r258c",
+						"title": "Working with Data: Part 3",
+						"totalduration": "5 lectures • 59min",
+						"lessons": [
+						  {
+							"id": "l7yihanlpogerqfwsuo",
+							"name": "GroupBy on DataFrames",
+							"duration": "17:41"
+						  },
+						  {
+							"id": "l7yihannz9jwqbla6jf",
+							"name": "GroupBy on Dict and Series",
+							"duration": "13:21"
+						  },
+						  {
+							"id": "l7yihann3s9r245jf01",
+							"name": "Aggregation",
+							"duration": "12:42"
+						  },
+						  {
+							"id": "l7yihann841ov2w8eg6",
+							"name": "Splitting Applying and Combining",
+							"duration": "10:02"
+						  },
+						  {
+							"id": "l7yihanndpb2xm4n3ee",
+							"name": "Cross Tabulation",
+							"duration": "05:06"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihannr9tggytwvxf",
+						"title": "Data Visualization",
+						"totalduration": "7 lectures • 1hr 28min",
+						"lessons": [
+						  {
+							"id": "l7yihanndry2hn2vaeb",
+							"name": "Installing Seaborn",
+							"duration": "01:44"
+						  },
+						  {
+							"id": "l7yihanovvbw4y3i8um",
+							"name": "Histograms",
+							"duration": "09:19"
+						  },
+						  {
+							"id": "l7yihano8uyjdnddpej",
+							"name": "Kernel Density Estimate Plots",
+							"duration": "25:58"
+						  },
+						  {
+							"id": "l7yihanoemyjtaw6nn8",
+							"name": "Combining Plot Styles",
+							"duration": "06:14"
+						  },
+						  {
+							"id": "l7yihanowz5kugkal8i",
+							"name": "Box and Violin Plots",
+							"duration": "08:52"
+						  },
+						  {
+							"id": "l7yihanob6lquwtxszg",
+							"name": "Regression Plots",
+							"duration": "18:39"
+						  },
+						  {
+							"id": "l7yihano6iamzhb9eq4",
+							"name": "Heatmaps and Clustered Matrices",
+							"duration": "16:49"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihano7ycg89m481o",
+						"title": "Example Projects.",
+						"totalduration": "17 lectures • 3hr 38min",
+						"lessons": [
+						  {
+							"id": "l7yihanpwhpssoufb39",
+							"name": "Data Projects Preview",
+							"duration": "03:02"
+						  },
+						  {
+							"id": "l7yihanro12bzc060f",
+							"name": "Intro to Data Projects",
+							"duration": "04:34"
+						  },
+						  {
+							"id": "l7yihanro1tos427gp8",
+							"name": "Titanic Project - Part 1",
+							"duration": "17:06"
+						  },
+						  {
+							"id": "l7yihanry6u8xz5jba",
+							"name": "Titanic Project - Part 2",
+							"duration": "16:08"
+						  },
+						  {
+							"id": "l7yihanrnxh0876r2s8",
+							"name": "Titanic Project - Part 3",
+							"duration": "15:49"
+						  },
+						  {
+							"id": "l7yihanrouowz9cqqtn",
+							"name": "Titanic Project - Part 4",
+							"duration": "02:05"
+						  },
+						  {
+							"id": "l7yihanrog2ak28r3gf",
+							"name": "Intro to Data Project - Stock Market Analysis",
+							"duration": "03:13"
+						  },
+						  {
+							"id": "l7yihanr6bf1gme1cm",
+							"name": "Data Project - Stock Market Analysis Part 1",
+							"duration": "11:19"
+						  },
+						  {
+							"id": "l7yihanrnnmevfcndm8",
+							"name": "Data Project - Stock Market Analysis Part 2",
+							"duration": "18:06"
+						  },
+						  {
+							"id": "l7yihanr3353de6k195",
+							"name": "Data Project - Stock Market Analysis Part 3",
+							"duration": "10:24"
+						  },
+						  {
+							"id": "l7yihanr9x1spff5dsb",
+							"name": "Data Project - Stock Market Analysis Part 4",
+							"duration": "06:56"
+						  },
+						  {
+							"id": "l7yihanrtksgj9yl9c",
+							"name": "Data Project - Stock Market Analysis Part 5",
+							"duration": "27:40"
+						  },
+						  {
+							"id": "l7yihanrei4wt8n14n",
+							"name": "Data Project - Intro to Election Analysis",
+							"duration": "02:20"
+						  },
+						  {
+							"id": "l7yihanrk5202vlns6",
+							"name": "Data Project - Election Analysis Part 1",
+							"duration": "18:00"
+						  },
+						  {
+							"id": "l7yihanrijo1fljujl",
+							"name": "Data Project - Election Analysis Part 2",
+							"duration": "20:34"
+						  },
+						  {
+							"id": "l7yihanrwp87d64k5h",
+							"name": "Data Project - Election Analysis Part 3",
+							"duration": "15:04"
+						  },
+						  {
+							"id": "l7yihanr0hwtv45s8u3u",
+							"name": "Data Project - Election Analysis Part 4",
+							"duration": "25:57"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanrfd7pr55l7r",
+						"title": "Machine Learning",
+						"totalduration": "20 lectures • 5hr 51min",
+						"lessons": [
+						  {
+							"id": "l7yihansu7w0qqo25zn",
+							"name": "Introduction to Machine Learning with SciKit Learn",
+							"duration": "12:51"
+						  },
+						  {
+							"id": "l7yihanura11cs2zs8",
+							"name": "Linear Regression Part 1",
+							"duration": "17:40"
+						  },
+						  {
+							"id": "l7yihanu4860mtubz4m",
+							"name": "Linear Regression Part 2",
+							"duration": "18:21"
+						  },
+						  {
+							"id": "l7yihanux2rnmcqz5u9",
+							"name": "Linear Regression Part 3",
+							"duration": "18:45"
+						  },
+						  {
+							"id": "l7yihanuzfucccgllvk",
+							"name": "Linear Regression Part 4",
+							"duration": "22:08"
+						  },
+						  {
+							"id": "l7yihanupxri1ntjpcd",
+							"name": "Logistic Regression Part 1",
+							"duration": "14:18"
+						  },
+						  {
+							"id": "l7yihanuabvpsrs09u5",
+							"name": "Logistic Regression Part 2",
+							"duration": "14:25"
+						  },
+						  {
+							"id": "l7yihanup5ujyheh91g",
+							"name": "Logistic Regression Part 3",
+							"duration": "12:20"
+						  },
+						  {
+							"id": "l7yihanu6wl8xgr6vbm",
+							"name": "Logistic Regression Part 4",
+							"duration": "22:22"
+						  },
+						  {
+							"id": "l7yihanu9n8cwxqgf7u",
+							"name": "Multi Class Classification Part 1 - Logistic Regression",
+							"duration": "18:33"
+						  },
+						  {
+							"id": "l7yihanukpckh7sr1z",
+							"name": "Multi Class Classification Part 2 - k Nearest Neighbor",
+							"duration": "23:05"
+						  },
+						  {
+							"id": "l7yihanuslbzttdhkg",
+							"name": "Support Vector Machines Part 1",
+							"duration": "12:52"
+						  },
+						  {
+							"id": "l7yihanu7cwlay8cjem",
+							"name": "Support Vector Machines - Part 2",
+							"duration": "29:07"
+						  },
+						  {
+							"id": "l7yihanusadvufvkhrc",
+							"name": "Naive Bayes Part 1",
+							"duration": "10:03"
+						  },
+						  {
+							"id": "l7yihanuldnfas8hble",
+							"name": "Naive Bayes Part 2",
+							"duration": "12:26"
+						  },
+						  {
+							"id": "l7yihanuq93n2cfkn5e",
+							"name": "Decision Trees and Random Forests",
+							"duration": "31:47"
+						  },
+						  {
+							"id": "l7yihanu3o0f0c6k956",
+							"name": "Natural Language Processing Part 1",
+							"duration": "07:20"
+						  },
+						  {
+							"id": "l7yihanuo7fx0rzbnp",
+							"name": "Natural Language Processing Part 2",
+							"duration": "15:39"
+						  },
+						  {
+							"id": "l7yihanuj28nqi19mba",
+							"name": "Natural Language Processing Part 3",
+							"duration": "20:48"
+						  },
+						  {
+							"id": "l7yihanuz7ivqnmiy7h",
+							"name": "Natural Language Processing Part 4",
+							"duration": "16:16"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanuqvyy9giw579",
+						"title": "Appendix: Statistics Overview",
+						"totalduration": "11 lectures • 1hr 29min",
+						"lessons": [
+						  {
+							"id": "l7yihanv5it5hdcmn07",
+							"name": "Intro to Appendix B",
+							"duration": "02:44"
+						  },
+						  {
+							"id": "l7yihanw134sbrad45e9",
+							"name": "Discrete Uniform Distribution",
+							"duration": "06:11"
+						  },
+						  {
+							"id": "l7yihanwpcq5vhqbi8i",
+							"name": "Continuous Uniform Distribution",
+							"duration": "07:03"
+						  },
+						  {
+							"id": "l7yihanwjzghwfmfh2p",
+							"name": "Binomial Distribution",
+							"duration": "12:35"
+						  },
+						  {
+							"id": "l7yihanw4mym2mtw84c",
+							"name": "Poisson Distribution",
+							"duration": "10:55"
+						  },
+						  {
+							"id": "l7yihanw7uka5f7ovb8",
+							"name": "Normal Distribution",
+							"duration": "06:24"
+						  },
+						  {
+							"id": "l7yihanwmzndc7lm43e",
+							"name": "Sampling Techniques",
+							"duration": "04:54"
+						  },
+						  {
+							"id": "l7yihanw9decyar78nt",
+							"name": "T-Distribution",
+							"duration": "05:09"
+						  },
+						  {
+							"id": "l7yihanwfqt17wgve6k",
+							"name": "Hypothesis Testing and Confidence Intervals",
+							"duration": "20:08"
+						  },
+						  {
+							"id": "l7yihanwq7iokct9c2",
+							"name": "Chi Square Test and Distribution",
+							"duration": "02:53"
+						  },
+						  {
+							"id": "l7yihanw4i945u008jf",
+							"name": "Bayes Theorem",
+							"duration": "10:02"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanw3n0j7lf9sbv",
+						"title": "Appendix: SQL and Python",
+						"totalduration": "3 lectures • 28min",
+						"lessons": [
+						  {
+							"id": "l7yihanw4d2am4ytpun",
+							"name": "Introduction to SQL with Python",
+							"duration": "09:59"
+						  },
+						  {
+							"id": "l7yihanxtyct88qii8o",
+							"name": "SQL - SELECT,DISTINCT,WHERE,AND & OR",
+							"duration": "09:58"
+						  },
+						  {
+							"id": "l7yihanxy22lff1fy",
+							"name": "SQL WILDCARDS, ORDER BY, GROUP BY and Aggregate Functions",
+							"duration": "08:25"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanxh7nnn5qam6i",
+						"title": "Appendix: Web Scraping with Python",
+						"totalduration": "2 lectures • 24min",
+						"lessons": [
+						  {
+							"id": "l7yihanxy8qmtsh4i9",
+							"name": "Web Scraping Part 1",
+							"duration": "12:14"
+						  },
+						  {
+							"id": "l7yihanyvt8n43zk24",
+							"name": "Web Scraping Part 2",
+							"duration": "12:14"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanyyccil0nqbfc",
+						"title": "Appendix: Python Special Offers",
+						"totalduration": "3 lectures • 41min",
+						"lessons": [
+						  {
+							"id": "l7yihanyhy92xegi6i",
+							"name": "Python Overview Part 1",
+							"duration": "18:52"
+						  },
+						  {
+							"id": "l7yihanz1vjlu509qie",
+							"name": "Python Overview Part 2",
+							"duration": "12:18"
+						  },
+						  {
+							"id": "l7yihanzh1t58cukg8k",
+							"name": "Python Overview Part 3",
+							"duration": "10:13"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanzbyemk9xk0kc",
+						"title": "BONUS SECTION: THANK YOU!",
+						"totalduration": "1 lecture • 1min",
+						"lessons": [
+						  {
+							"id": "l7yihanzqpqrpzhds0a",
+							"name": "Bonus Lecture",
+							"duration": "00:10"
+						  }
+						]
+					  }
+					],
+					"feedbacks": [],
+					"reviewers": [],
+					"requirements": [
+					  {
+						"id": "l7yihao0xc0fsrskv0e",
+						"text": "Basic math skills."
+					  },
+					  {
+						"id": "l7yihao09sfj1p7hm7b",
+						"text": "Basic to Intermediate Python Skills"
+					  },
+					  {
+						"id": "l7yihao0ihjdvciwtgk",
+						"text": "Have a computer (either Mac, Windows, or Linux)"
+					  },
+					  {
+						"id": "l7yihao020h3p1mfawa",
+						"text": "Desire to learn!"
+					  }
+					],
+					"descriptions": [
+					  {
+						"id": "l7yihao0q53a9ead75i",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0q6oey79bb9",
+						"text": "PLEASE READ BEFORE ENROLLING: "
+					  },
+					  {
+						"id": "l7yihao0wsw3xcrbhf",
+						"text": "1.) THERE IS AN UPDATED VERSION OF THIS COURSE: "
+					  },
+					  {
+						"id": "l7yihao082z87pyjjn",
+						"text": "\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\" "
+					  },
+					  {
+						"id": "l7yihao0klej6ko3vy",
+						"text": "2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!"
+					  },
+					  {
+						"id": "l7yihao0f2rgpzw58gl",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0cp4ipy5dtfv",
+						"text": "CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)"
+					  },
+					  {
+						"id": "l7yihao0kbvax5lm12r",
+						"text": "**********************************************************************************************************"
+					  },
+					  {
+						"id": "l7yihao0nhchjvensr",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0egerymfwvuj",
+						"text": "This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!"
+					  },
+					  {
+						"id": "l7yihao0a8fp267ppcf",
+						"text": "    You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. "
+					  },
+					  {
+						"id": "l7yihao0nuj61p651b",
+						"text": "  You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers! "
+					  },
+					  {
+						"id": "l7yihao0qh3fft2xad",
+						"text": "    By the end of this course you will: "
+					  },
+					  {
+						"id": "l7yihao0dx4h78az8l",
+						"text": "  - Have an understanding of how to program in Python. "
+					  },
+					  {
+						"id": "l7yihao0gpihkx0mlqw",
+						"text": "  - Know how to create and manipulate arrays using numpy and Python. "
+					  },
+					  {
+						"id": "l7yihao0wxixbc9tcl",
+						"text": "  - Know how to use pandas to create and analyze data sets. "
+					  },
+					  {
+						"id": "l7yihao0bd527mobwyk",
+						"text": "  - Know how to use matplotlib and seaborn libraries to create beautiful data visualization. "
+					  },
+					  {
+						"id": "l7yihao0hr4bdfxjy7n",
+						"text": "  - Have an amazing portfolio of example python data analysis projects! "
+					  },
+					  {
+						"id": "l7yihao0dxgzocylmer",
+						"text": "- Have an understanding of Machine Learning and SciKit Learn!"
+					  },
+					  {
+						"id": "l7yihao035tarutvrub",
+						"text": "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! "
 					  }
 					]
 				  }
