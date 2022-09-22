@@ -1,6 +1,4 @@
-from ctypes import util
 import json
-import re
 from telnetlib import STATUS
 from textwrap import indent
 from django.shortcuts import render
@@ -50,32 +48,39 @@ def delete_course_by_id(id):
         return False
     courses.pop(id)
     update_json(courses)
+    return True
+
+
+def check_if_done(flag):
+    if (flag):
+        return JsonResponse(data={}, status=202)
+    return not_found()
+
+
+def not_found():
+    return JsonResponse(data={}, status=404)
 
 
 class Course(View):
-    def get(self, request, id):
-        if (id == "all"):
+
+    def get(self, request, *args, **kwargs):
+        if (kwargs.get('id') == None):
             return JsonResponse(data={"courses": retrieve_all_courses()})
-        course = search_course_by_id(id)
+        course = search_course_by_id(kwargs["id"])
         if (course == None):
             return JsonResponse(data={}, status=404)
-
         return JsonResponse(data=course, status=200)
 
-    def post(self, request, id):
+    def post(self, request, *args, **kwargs):
         add_course(json.loads(request.body))
         return JsonResponse(data={}, status=201)
 
-    def put(self, request, id):
-        flag = add_course(json.loads(request.body), id=id)
-        if (flag):
-            return JsonResponse(data={}, status=202)
-        else:
-            return JsonResponse(data={}, status=404)
+    def put(self, request, *args, **kwargs):
+        if (kwargs.get("id") == None):
+            return not_found()
+        return check_if_done(add_course(json.loads(request.body), id=kwargs["id"]))
 
-    def delete(self, request, id):
-        flag = delete_course_by_id(id)
-        if (flag):
-            return JsonResponse(data={}, status=202)
-        else:
-            return JsonResponse(data={}, status=404)
+    def delete(self, request, *args, **kwargs):
+        if (kwargs.get("id") == None):
+            return not_found()
+        return check_if_done(delete_course_by_id(kwargs["id"]))
