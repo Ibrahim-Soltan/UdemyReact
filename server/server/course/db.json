@@ -1,0 +1,14 @@
+{
+    "courses": [
+        {
+            "id": "2b4688b1-0841-45a0-8926-2f9577882a3e",
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "description": "Python For Beginners : This course is meant for absolute beginners in programming or in python."
+        },
+        {
+            "id": "5046ae6e-c07c-416a-8f10-f19b660aca42",
+            "title": "Learn Python: The Complete Python Programming Course",
+            "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!"
+        }
+    ]
+}
