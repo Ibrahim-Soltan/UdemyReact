@@ -1,0 +1,16 @@
+{
+    "courses": {
+        "b233ae0f-3d24-48fd-829a-54d565f57bde": {
+            "title": "Learning Python for Data Analysis and Visualization",
+            "description": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!"
+        },
+        "edf44672-9af1-4ec1-a7c8-c626fe66b6cd": {
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "description": "Python For Beginners : This course is meant for absolute beginners in programming or in python."
+        },
+        "aa6cf4df-60cf-4b48-967e-086e713996ac": {
+            "title": "Learn Python: The Complete Python Programming Course",
+            "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!"
+        }
+    }
+}
