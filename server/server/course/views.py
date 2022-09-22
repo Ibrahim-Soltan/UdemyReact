@@ -1,6 +1,7 @@
 from ctypes import util
 import json
 import re
+from telnetlib import STATUS
 from textwrap import indent
 from django.shortcuts import render
 from django.views import View
@@ -29,32 +30,26 @@ def update_json(data, filename='C:/Users/pc/OneDrive/Desktop/Summer 2022\/bld/We
 
 def search_course_by_id(id):
     courses = retrieve_all_courses()
-    for course in courses:
-        if (course["id"] == id):
-            return course
-    return None
+    return courses.get(id)
 
 
 def add_course(course, id=None):
+    courses = retrieve_all_courses()
     if (id == None):
-        course["id"] = str(uuid.uuid4())
-    courses = retrieve_all_courses()
-    courses.append(course)
+        id = str(uuid.uuid4())
+    elif (courses.get(id) == None):
+        return False
+    courses[id] = course
     update_json(courses)
-
-
-def delete_course(course):
-    courses = retrieve_all_courses()
-    courses.remove(course)
-    update_json(courses)
+    return True
 
 
 def delete_course_by_id(id):
-    course = search_course_by_id(id)
-    if (course == None):
-        return course
-    delete_course()
-    return course
+    courses = retrieve_all_courses()
+    if (courses.get(id) == None):
+        return False
+    courses.pop(id)
+    update_json(courses)
 
 
 class Course(View):
@@ -63,17 +58,24 @@ class Course(View):
             return JsonResponse(data={"courses": retrieve_all_courses()})
         course = search_course_by_id(id)
         if (course == None):
-            return JsonResponse(data={})
+            return JsonResponse(data={}, status=404)
 
-        return JsonResponse(data=course)
+        return JsonResponse(data=course, status=200)
 
     def post(self, request, id):
         add_course(json.loads(request.body))
-        return JsonResponse(data=json.loads(request.body))
+        return JsonResponse(data={}, status=201)
 
-    def put(self, request):
-        return JsonResponse(data={'action': 'put req received'})
+    def put(self, request, id):
+        flag = add_course(json.loads(request.body), id=id)
+        if (flag):
+            return JsonResponse(data={}, status=202)
+        else:
+            return JsonResponse(data={}, status=404)
 
     def delete(self, request, id):
-        delete_course_by_id(id)
-        return JsonResponse(data={'action': 'delete req received'})
+        flag = delete_course_by_id(id)
+        if (flag):
+            return JsonResponse(data={}, status=202)
+        else:
+            return JsonResponse(data={}, status=404)
