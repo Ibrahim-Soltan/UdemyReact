@@ -1,0 +1,25 @@
+.container{
+    border : 1px solid #d1d7dc;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.container > h2{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.container > *{
+    font-family: sans-serif;
+}
+
+.learnitems{
+    list-style-type: none;
+    column-count: 2;
+    column-fill: balance;
+}
+
+.learnitems > li{
+    padding: 5px 0px;
+}

@@ -1,0 +1,1832 @@
+{
+	"data":{
+		"categories":["python","excel","web development","javascript","data science","aws certification","drawing"],
+		"courses":{
+			"python":
+			[
+				{
+					"id": "l7w3s36z3ddl2t7q6o3",
+					"title": "Learn Python: The Complete Python Programming Course",
+					"description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+					"link": "/course/pythonforbeginners/",
+					"img": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+					"onDemandVidhrs":"14",
+					"articles":"1",
+					"downloadableResources" :"3",
+					"fullTimeAccess":true,
+					"mobileTVAccess":true,
+					"certificate":true,
+					"instructors": [
+					  {
+						"id": "l7w3s36y1o69rvs3otfj",
+						"name": "Avinash Jain",
+						"job": "CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+						"img": "https://img-c.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+						"rating": 4.4,
+						"reviews": 73915,
+						"students": 893495,
+						"courses": 16,
+						"description": "    Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help. \n\nShow more"
+					  },
+					  {
+						"id": "l7w3s36yofzhb2x4ln",
+						"name": "The Codex",
+						"job": "Teaching Python through Projects",
+						"img": "https://img-c.udemycdn.com/user/200_H/52310762_220a.jpg",
+						"rating": 4.4,
+						"reviews": 73915,
+						"students": 893495,
+						"courses": 16,
+						"description": "You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to build fun, practical projects. Now, you can stand out from the crowd and land your dream job.\n\n\n\n\nJoin us on our platform today!\n\n\n\n\n\n\n\nShow more"
+					  }
+					],
+					"rating": 4.4,
+					"enrollments": 19680,
+					"totalreviews": 3242,
+					"price": 679.99,
+					"oldprice": 679.99,
+					"lastupdated": "9/2015",
+					"learnitems": [
+					  {
+						"id": "l7w3s358nl5tnk2lt1",
+						"text": "Create their own Python Programs"
+					  },
+					  {
+						"id": "l7w3s358fbmmojtkld7",
+						"text": "Become a Python Programmer"
+					  },
+					  {
+						"id": "l7w3s358e7gl5i5ptbu",
+						"text": "Parse the Web and Create their own Games"
+					  }
+					],
+					"totallength": "15 sections • 146 lectures • 14h 42m total length",
+					"lectures": [
+					  {
+						"id": "l7w3s35vpjyphg8x4xs",
+						"title": "Up and Running With Python",
+						"totalduration": "2 lectures • 6min",
+						"lessons": [
+						  {
+							"id": "l7w3s3639r3lj2pitiw",
+							"name": "Installing Python",
+							"duration": "04:07"
+						  },
+						  {
+							"id": "l7w3s363odg5v5e0sq",
+							"name": "Hello World",
+							"duration": "01:37"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s3637ctzvwsvfhi",
+						"title": "The Basics (Data Types)",
+						"totalduration": "11 lectures • 53min",
+						"lessons": [
+						  {
+							"id": "l7w3s3642kpgtl7i95v",
+							"name": "Variables",
+							"duration": "03:01"
+						  },
+						  {
+							"id": "l7w3s366qizcg0jg6k",
+							"name": "Multiple Assignment",
+							"duration": "03:44"
+						  },
+						  {
+							"id": "l7w3s366flgu2a08q5j",
+							"name": "Data Types and Ints",
+							"duration": "03:57"
+						  },
+						  {
+							"id": "l7w3s366kbace86tgwd",
+							"name": "Strings",
+							"duration": "07:26"
+						  },
+						  {
+							"id": "l7w3s3665qqeyf0tpyc",
+							"name": "Placeholders",
+							"duration": "03:49"
+						  },
+						  {
+							"id": "l7w3s3663gbi1o7130z",
+							"name": "Lists/Arrays",
+							"duration": "06:03"
+						  },
+						  {
+							"id": "l7w3s366an6jlrg1ho",
+							"name": "List Functions",
+							"duration": "07:18"
+						  },
+						  {
+							"id": "l7w3s36667evvaenuwy",
+							"name": "Dictionaries",
+							"duration": "06:54"
+						  },
+						  {
+							"id": "l7w3s366hfajr5j2l4f",
+							"name": "Dictionary Functions",
+							"duration": "05:33"
+						  },
+						  {
+							"id": "l7w3s366ihsjdgos359",
+							"name": "Tuples",
+							"duration": "05:01"
+						  },
+						  {
+							"id": "l7w3s366xz8fn6k7jqj",
+							"name": "Exercise Files",
+							"duration": "2 pages"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s3665yw5zghbkxm",
+						"title": "Conditions and Loops",
+						"totalduration": "13 lectures • 57min",
+						"lessons": [
+						  {
+							"id": "l7w3s367u3wo6t828hn",
+							"name": "If-Else Statements",
+							"duration": "03:18"
+						  },
+						  {
+							"id": "l7w3s368mw9vxtspkcl",
+							"name": "Relational Operators",
+							"duration": "05:57"
+						  },
+						  {
+							"id": "l7w3s368pnekiom6dgg",
+							"name": "Nested If/Else",
+							"duration": "04:23"
+						  },
+						  {
+							"id": "l7w3s368yoh13se3o6g",
+							"name": "Elif Statements",
+							"duration": "03:33"
+						  },
+						  {
+							"id": "l7w3s3683mq4r702q24",
+							"name": "Logical Operators",
+							"duration": "03:58"
+						  },
+						  {
+							"id": "l7w3s368ywm8nhakez",
+							"name": "For Loops",
+							"duration": "07:22"
+						  },
+						  {
+							"id": "l7w3s368hhdehsyunlw",
+							"name": "While Loops",
+							"duration": "03:35"
+						  },
+						  {
+							"id": "l7w3s368qwxkrg9xs1",
+							"name": "Nested For Loops",
+							"duration": "03:41"
+						  },
+						  {
+							"id": "l7w3s368tuypq2fb7r",
+							"name": "Pass, Break and Continue",
+							"duration": "07:44"
+						  },
+						  {
+							"id": "l7w3s368rjvk6pdo0l",
+							"name": "Try and Except",
+							"duration": "02:51"
+						  },
+						  {
+							"id": "l7w3s368ues6u5zydze",
+							"name": "Commenting",
+							"duration": "03:53"
+						  },
+						  {
+							"id": "l7w3s368kzs0njvcjhs",
+							"name": "Quick Tips",
+							"duration": "06:26"
+						  },
+						  {
+							"id": "l7w3s368g2lvm7bmj3v",
+							"name": "Exercise Files",
+							"duration": "1 page"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s368z674gkcln3",
+						"title": "Functions!",
+						"totalduration": "7 lectures • 26min",
+						"lessons": [
+						  {
+							"id": "l7w3s368ar98m808cd",
+							"name": "Creating our own Functions",
+							"duration": "04:45"
+						  },
+						  {
+							"id": "l7w3s369djl3vwf5vie",
+							"name": "Global and Local Vars",
+							"duration": "02:46"
+						  },
+						  {
+							"id": "l7w3s369cwi59t4wjh",
+							"name": "Abs and Bool",
+							"duration": "03:55"
+						  },
+						  {
+							"id": "l7w3s369rk325i4f2g",
+							"name": "Help and Dir",
+							"duration": "03:37"
+						  },
+						  {
+							"id": "l7w3s36957kbwzv1lqb",
+							"name": "Eval and Exec",
+							"duration": "03:11"
+						  },
+						  {
+							"id": "l7w3s369bgt9kajykk",
+							"name": "Str, Int, Float",
+							"duration": "03:33"
+						  },
+						  {
+							"id": "l7w3s3691t6hrq0p09t",
+							"name": "Recap and Sum",
+							"duration": "04:31"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s3699vqpf394z8",
+						"title": "Classes! (Object Orientated Programming)",
+						"totalduration": "5 lectures • 28min",
+						"lessons": [
+						  {
+							"id": "l7w3s36a23bnyfsdxrv",
+							"name": "Basics of Classes",
+							"duration": "07:33"
+						  },
+						  {
+							"id": "l7w3s36bfqwz3vvzpqw",
+							"name": "Functions in Classes",
+							"duration": "04:06"
+						  },
+						  {
+							"id": "l7w3s36bkko5ulux9j",
+							"name": "Class Attributes",
+							"duration": "06:19"
+						  },
+						  {
+							"id": "l7w3s36bx0dv443pwjj",
+							"name": "Inheritance",
+							"duration": "07:11"
+						  },
+						  {
+							"id": "l7w3s36bukl1ojxl45h",
+							"name": "Overriding Methods",
+							"duration": "02:54"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36bb67im86zktv",
+						"title": "File Input/Output",
+						"totalduration": "6 lectures • 25min",
+						"lessons": [
+						  {
+							"id": "l7w3s36bbkwcy2e2x5w",
+							"name": "Creating a File",
+							"duration": "03:15"
+						  },
+						  {
+							"id": "l7w3s36cg2aslqvuhau",
+							"name": "Creating a File (Windows)",
+							"duration": "00:11"
+						  },
+						  {
+							"id": "l7w3s36cgzmuigwh3nt",
+							"name": "Reading a File",
+							"duration": "08:20"
+						  },
+						  {
+							"id": "l7w3s36c7wy6cw4bcj9",
+							"name": "Writing to a File",
+							"duration": "03:39"
+						  },
+						  {
+							"id": "l7w3s36c84mt8uhm8ws",
+							"name": "Appending to Files",
+							"duration": "04:49"
+						  },
+						  {
+							"id": "l7w3s36cj3plebecyga",
+							"name": "Copying Files",
+							"duration": "04:31"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36c07g1ijct1ph2",
+						"title": "Using Python Modules",
+						"totalduration": "12 lectures • 59min",
+						"lessons": [
+						  {
+							"id": "l7w3s36dhjb2snbyl5s",
+							"name": "Random Module - Randint",
+							"duration": "02:35"
+						  },
+						  {
+							"id": "l7w3s36eqnmduu7u7q",
+							"name": "Guessing Game",
+							"duration": "09:32"
+						  },
+						  {
+							"id": "l7w3s36e6jsqnrvayii",
+							"name": "Guessing Game Challenge",
+							"duration": "1 page"
+						  },
+						  {
+							"id": "l7w3s36eyp7hvs11h2d",
+							"name": "Random Module - Shuffle and Choice",
+							"duration": "04:08"
+						  },
+						  {
+							"id": "l7w3s36e8mx3npyw1zu",
+							"name": "Sys Module",
+							"duration": "05:36"
+						  },
+						  {
+							"id": "l7w3s36el86bafjw1h",
+							"name": "Time Module",
+							"duration": "12:00"
+						  },
+						  {
+							"id": "l7w3s36eftosi1nnb2l",
+							"name": "Turtle Module",
+							"duration": "04:20"
+						  },
+						  {
+							"id": "l7w3s36eab602xzefq",
+							"name": "For Loops in Turtle",
+							"duration": "04:22"
+						  },
+						  {
+							"id": "l7w3s36eraqui5aufjs",
+							"name": "Up and Down Functions",
+							"duration": "03:38"
+						  },
+						  {
+							"id": "l7w3s36eny3akhy0j",
+							"name": "Coloring in Turtle",
+							"duration": "08:28"
+						  },
+						  {
+							"id": "l7w3s36esuj3z95d2c",
+							"name": "Functions in Turtle",
+							"duration": "04:06"
+						  },
+						  {
+							"id": "l7w3s36e9ouryipdbw7",
+							"name": "Exercise Files",
+							"duration": "3 pages"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36eziu4ej33aqb",
+						"title": "Crawling The Web",
+						"totalduration": "7 lectures • 52min",
+						"lessons": [
+						  {
+							"id": "l7w3s36fgsk2uzxt4k6",
+							"name": "Re Module",
+							"duration": "09:29"
+						  },
+						  {
+							"id": "l7w3s36gypmtbmfvisa",
+							"name": "Crawling The Web (Stocks)",
+							"duration": "17:14"
+						  },
+						  {
+							"id": "l7w3s36gq2ap6hgkteh",
+							"name": "Stock Quotes (.py)",
+							"duration": "1 page"
+						  },
+						  {
+							"id": "l7w3s36g05f8sej9bc1y",
+							"name": "Crawling The Web (Weather)",
+							"duration": "13:01"
+						  },
+						  {
+							"id": "l7w3s36g456wen7l0yp",
+							"name": "Weather (.py)",
+							"duration": "1 page"
+						  },
+						  {
+							"id": "l7w3s36gike2iwc06u",
+							"name": "Crawling The Web (Definition)",
+							"duration": "12:02"
+						  },
+						  {
+							"id": "l7w3s36g7hu15pwz7hj",
+							"name": "Definition (.py)",
+							"duration": "1 page"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36gc63iczcyrya",
+						"title": "Beautiful Soup HTML Parsing",
+						"totalduration": "9 lectures • 1hr 1min",
+						"lessons": [
+						  {
+							"id": "l7w3s36h5n29a57hq8u",
+							"name": "Intro to Beautiful Soup",
+							"duration": "01:38"
+						  },
+						  {
+							"id": "l7w3s36idh6xg1hxwd",
+							"name": "Installing the Beautiful Soup Module",
+							"duration": "09:21"
+						  },
+						  {
+							"id": "l7w3s36igzdsoro593s",
+							"name": "Prettify with Soup",
+							"duration": "05:44"
+						  },
+						  {
+							"id": "l7w3s36iy01h6loeous",
+							"name": "Drilling Down",
+							"duration": "07:57"
+						  },
+						  {
+							"id": "l7w3s36ifv6ubina36p",
+							"name": "Functions in Soup",
+							"duration": "05:44"
+						  },
+						  {
+							"id": "l7w3s36ichysp67nh8v",
+							"name": ".String and .Parent",
+							"duration": "03:55"
+						  },
+						  {
+							"id": "l7w3s36izcu6wqs2a6e",
+							"name": "Searching in Soup",
+							"duration": "08:53"
+						  },
+						  {
+							"id": "l7w3s36irh3ooah2n2b",
+							"name": "Weather Parsing",
+							"duration": "11:01"
+						  },
+						  {
+							"id": "l7w3s36ijby686qdf1g",
+							"name": "Antonym Parsing",
+							"duration": "06:53"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36i8jr7y5izwgw",
+						"title": "MatPlotLib - Charts, Plots and 3D Figures!",
+						"totalduration": "20 lectures • 1hr 49min",
+						"lessons": [
+						  {
+							"id": "l7w3s36mc4bd5i4rqo8",
+							"name": "Intro to MatPlotLib",
+							"duration": "03:27"
+						  },
+						  {
+							"id": "l7w3s36ombcdv0o7tbp",
+							"name": "First Graph!",
+							"duration": "04:52"
+						  },
+						  {
+							"id": "l7w3s36orz3pblhvzxh",
+							"name": "Understanding the MatPlotLib Interface",
+							"duration": "03:45"
+						  },
+						  {
+							"id": "l7w3s36onpg5aqcd7aa",
+							"name": "Graph Labels",
+							"duration": "05:18"
+						  },
+						  {
+							"id": "l7w3s36ow4uw4cqcl",
+							"name": "Creating a Graph from a File",
+							"duration": "10:08"
+						  },
+						  {
+							"id": "l7w3s36o4opchgfzc8u",
+							"name": "Understanding SubPlots and Figures",
+							"duration": "07:42"
+						  },
+						  {
+							"id": "l7w3s36oe20y03iqyo6",
+							"name": "Coloring of Graph",
+							"duration": "06:42"
+						  },
+						  {
+							"id": "l7w3s36ocf8jrdxrs4b",
+							"name": "Multiple Plots in a Graph",
+							"duration": "04:10"
+						  },
+						  {
+							"id": "l7w3s36o4y2mihf5tqp",
+							"name": "Multiple Graphs in a Figure",
+							"duration": "04:19"
+						  },
+						  {
+							"id": "l7w3s36os3t0xlmen8",
+							"name": "What about 3 graphs?",
+							"duration": "06:19"
+						  },
+						  {
+							"id": "l7w3s36or6nb59i1con",
+							"name": "Bar Graphs Intro",
+							"duration": "04:18"
+						  },
+						  {
+							"id": "l7w3s36o0y5fbhp9nkd",
+							"name": "Modifying our Bar Graph",
+							"duration": "07:13"
+						  },
+						  {
+							"id": "l7w3s36ors9bpituzl",
+							"name": "Pie Chart Intro",
+							"duration": "02:42"
+						  },
+						  {
+							"id": "l7w3s36ox6ihopmxar",
+							"name": "Modifying our Pie Chart",
+							"duration": "03:49"
+						  },
+						  {
+							"id": "l7w3s36oj2t8gr4xczh",
+							"name": "Adding a Legend",
+							"duration": "03:25"
+						  },
+						  {
+							"id": "l7w3s36ot9jjqo3rdv",
+							"name": "3D Graphics Intro",
+							"duration": "07:09"
+						  },
+						  {
+							"id": "l7w3s36o4zcb1gbub8",
+							"name": "3D Scatter Plots",
+							"duration": "05:03"
+						  },
+						  {
+							"id": "l7w3s36o0gw6ok0fey4g",
+							"name": "Multiple 3D Scatter Plots",
+							"duration": "02:46"
+						  },
+						  {
+							"id": "l7w3s36oxcnxt0yj4ap",
+							"name": "3D Bar Graphs",
+							"duration": "09:56"
+						  },
+						  {
+							"id": "l7w3s36oq1faq8n9zsm",
+							"name": "3D Wireframes",
+							"duration": "05:32"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36oxidhc596igo",
+						"title": "Data Analysis with Pandas!",
+						"totalduration": "17 lectures • 1hr 58min",
+						"lessons": [
+						  {
+							"id": "l7w3s36pn2dbd5jls2c",
+							"name": "Intro to Pandas",
+							"duration": "01:58"
+						  },
+						  {
+							"id": "l7w3s36q4vrce7lv3pk",
+							"name": "Series Data Structure",
+							"duration": "08:59"
+						  },
+						  {
+							"id": "l7w3s36qk5e8xth04yl",
+							"name": "Series Continuation",
+							"duration": "07:56"
+						  },
+						  {
+							"id": "l7w3s36q10ispvp62twl",
+							"name": "Data Frames Intro",
+							"duration": "08:30"
+						  },
+						  {
+							"id": "l7w3s36q82sst4efrdr",
+							"name": "Creating a CSV",
+							"duration": "02:20"
+						  },
+						  {
+							"id": "l7w3s36q1dkehvhcq1mi",
+							"name": "Reading a CSV",
+							"duration": "05:44"
+						  },
+						  {
+							"id": "l7w3s36qp1e4ajc0grb",
+							"name": "Writing to a CSV",
+							"duration": "03:05"
+						  },
+						  {
+							"id": "l7w3s36qxaxusk41p5p",
+							"name": "Getting our Data",
+							"duration": "05:00"
+						  },
+						  {
+							"id": "l7w3s36qk5scv95ypr",
+							"name": "Slicing Data Frames",
+							"duration": "03:37"
+						  },
+						  {
+							"id": "l7w3s36qhi56xaecp64",
+							"name": "Data Manipulation",
+							"duration": "10:27"
+						  },
+						  {
+							"id": "l7w3s36qxnkvrr77tjg",
+							"name": "Indexing and More",
+							"duration": "08:10"
+						  },
+						  {
+							"id": "l7w3s36qohs7l0ikzx",
+							"name": "Merging Data Frames",
+							"duration": "08:54"
+						  },
+						  {
+							"id": "l7w3s36q0fvxvhllxv9k",
+							"name": "GroupBy Function",
+							"duration": "05:59"
+						  },
+						  {
+							"id": "l7w3s36q1rebzw7kwfy",
+							"name": "MovieLens Data",
+							"duration": "07:42"
+						  },
+						  {
+							"id": "l7w3s36q3ga4hemonfw",
+							"name": "Heavy Data Analysis",
+							"duration": "08:29"
+						  },
+						  {
+							"id": "l7w3s36qvuxa31oa4r",
+							"name": "MatPlotLib with Pandas",
+							"duration": "04:17"
+						  },
+						  {
+							"id": "l7w3s36qb0zath2d78a",
+							"name": "Let's Finish This",
+							"duration": "16:34"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36qg4aq0ewib1",
+						"title": "Python GUI with Tkinter",
+						"totalduration": "25 lectures • 2hr 31min",
+						"lessons": [
+						  {
+							"id": "l7w3s36ro68ck6tcb9i",
+							"name": "Tkinter Introduction",
+							"duration": "04:22"
+						  },
+						  {
+							"id": "l7w3s36t79pkqe612qg",
+							"name": "Labels",
+							"duration": "03:57"
+						  },
+						  {
+							"id": "l7w3s36t4244vtfel27",
+							"name": "Buttons",
+							"duration": "04:04"
+						  },
+						  {
+							"id": "l7w3s36tl10dou1rjxj",
+							"name": "Layouts",
+							"duration": "08:01"
+						  },
+						  {
+							"id": "l7w3s36tmfq7aodmw4",
+							"name": "Fill",
+							"duration": "06:30"
+						  },
+						  {
+							"id": "l7w3s36tbgh70294hha",
+							"name": "Grid Layout",
+							"duration": "05:51"
+						  },
+						  {
+							"id": "l7w3s36tmvnkfzf1uil",
+							"name": "Entries",
+							"duration": "02:32"
+						  },
+						  {
+							"id": "l7w3s36t9rysf6hfh8",
+							"name": "Check Buttons",
+							"duration": "03:44"
+						  },
+						  {
+							"id": "l7w3s36ttkic9k1jvu",
+							"name": "GUI Login",
+							"duration": "03:50"
+						  },
+						  {
+							"id": "l7w3s36tt6g3c5hkink",
+							"name": "Actions on Button Click",
+							"duration": "03:50"
+						  },
+						  {
+							"id": "l7w3s36ttfvrtiwitfe",
+							"name": "Binding Functions",
+							"duration": "04:14"
+						  },
+						  {
+							"id": "l7w3s36ttu7yrzsme1n",
+							"name": "More Binding!",
+							"duration": "06:08"
+						  },
+						  {
+							"id": "l7w3s36tartjqve8amv",
+							"name": "Getting Entry Data",
+							"duration": "08:28"
+						  },
+						  {
+							"id": "l7w3s36tb5ptyy026l",
+							"name": "Message Box",
+							"duration": "07:28"
+						  },
+						  {
+							"id": "l7w3s36ts5ft4r72abb",
+							"name": "Drop Down Menus",
+							"duration": "07:54"
+						  },
+						  {
+							"id": "l7w3s36ta59n319g4bw",
+							"name": "Calculator Part 1",
+							"duration": "06:19"
+						  },
+						  {
+							"id": "l7w3s36tzp293zlu27",
+							"name": "Calculator Part 2",
+							"duration": "07:08"
+						  },
+						  {
+							"id": "l7w3s36twb9z9acy09i",
+							"name": "Calculator Part 3",
+							"duration": "08:48"
+						  },
+						  {
+							"id": "l7w3s36tnvjrd6abtm",
+							"name": "Calculator Part 4",
+							"duration": "09:23"
+						  },
+						  {
+							"id": "l7w3s36tr97gkhrfcmp",
+							"name": "Canvas Intro",
+							"duration": "06:10"
+						  },
+						  {
+							"id": "l7w3s36taef7j3hstqb",
+							"name": "Canvas Objects",
+							"duration": "05:43"
+						  },
+						  {
+							"id": "l7w3s36thcpyd1oojx",
+							"name": "Canvas Fill",
+							"duration": "04:15"
+						  },
+						  {
+							"id": "l7w3s36terzzb61zy7i",
+							"name": "Random Rectangle Generator",
+							"duration": "06:43"
+						  },
+						  {
+							"id": "l7w3s36tnovalwqy9z",
+							"name": "Text and Arcs",
+							"duration": "08:52"
+						  },
+						  {
+							"id": "l7w3s36t0jibgvj2drlm",
+							"name": "Animations",
+							"duration": "06:24"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36tfg5upoy936e",
+						"title": "Our First Game (Bounce!)",
+						"totalduration": "6 lectures • 57min",
+						"lessons": [
+						  {
+							"id": "l7w3s36u1vn0y53q2j8i",
+							"name": "Creating our Ball",
+							"duration": "12:36"
+						  },
+						  {
+							"id": "l7w3s36vasqqvd463kw",
+							"name": "Adding the Game Interface",
+							"duration": "13:31"
+						  },
+						  {
+							"id": "l7w3s36vhjvjvnzdwq",
+							"name": "Adding the Paddle",
+							"duration": "09:40"
+						  },
+						  {
+							"id": "l7w3s36v1a83ta37lt4",
+							"name": "Final Touches",
+							"duration": "17:15"
+						  },
+						  {
+							"id": "l7w3s36vbs2n3yifbfs",
+							"name": "Recap",
+							"duration": "04:08"
+						  },
+						  {
+							"id": "l7w3s36vigmzovuqic",
+							"name": "Bounce! (.py) (v1/v2/v3)",
+							"duration": "17 pages"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36v1amfbix8oxo",
+						"title": "Our Second Game (Pong!)",
+						"totalduration": "5 lectures • 51min",
+						"lessons": [
+						  {
+							"id": "l7w3s36v19205sx1bjp",
+							"name": "Creating our Ball",
+							"duration": "15:28"
+						  },
+						  {
+							"id": "l7w3s36we9eb4jrh2fu",
+							"name": "Adding Paddle1",
+							"duration": "07:42"
+						  },
+						  {
+							"id": "l7w3s36w1wmme2tnyok",
+							"name": "Adding Paddle2",
+							"duration": "12:36"
+						  },
+						  {
+							"id": "l7w3s36wjh2vd5bw7mg",
+							"name": "Final Touches",
+							"duration": "14:50"
+						  },
+						  {
+							"id": "l7w3s36w388at6tm6hu",
+							"name": "Pong! (.py)",
+							"duration": "4 pages"
+						  }
+						]
+					  },
+					  {
+						"id": "l7w3s36wp8oeh71qr1",
+						"title": "What's Next?",
+						"totalduration": "1 lecture • 1min",
+						"lessons": [
+						  {
+							"id": "l7w3s36xo7mmahmvjh",
+							"name": "Up and Beyond!",
+							"duration": "00:41"
+						  }
+						]
+					  }
+					],
+					"feedbacks": [],
+					"reviewers": [],
+					"requirements": [
+					  {
+						"id": "l7w3s36zj78v9169l2l",
+						"text": "Macintosh (OSX)/ Windows(Vista and higher) Machine"
+					  },
+					  {
+						"id": "l7w3s36zzpv75nib84",
+						"text": "Internet Connection"
+					  }
+					],
+					"descriptions": [
+					  {
+						"id": "l7w3s36zttrdo7fdtk",
+						"text": "Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?"
+					  },
+					  {
+						"id": "l7w3s36z8uq03q3c8nv",
+						"text": "If you’re looking to learn Python for the very first time or need a quick brush-up, this is the course for you!"
+					  },
+					  {
+						"id": "l7w3s36zq1i3n1bvvlr",
+						"text": "Python has rapidly become one of the most popular programming languages around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes over $100,000 - this number is only going to grow in the coming years."
+					  },
+					  {
+						"id": "l7w3s36zx77xyzynat9",
+						"text": "The best part? Python is one of the easiest coding languages to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an absolute pro at programming!"
+					  },
+					  {
+						"id": "l7w3s36zi7vk2v7kjq",
+						"text": "This course will cover all the basics and several advanced concepts of Python. We’ll go over:"
+					  },
+					  {
+						"id": "l7w3s36z9vnv47e0wbc",
+						"text": "The fundamentals of Python programming"
+					  },
+					  {
+						"id": "l7w3s36zibm515twha",
+						"text": "Writing and Reading to Files"
+					  },
+					  {
+						"id": "l7w3s36zpv893ew3if7",
+						"text": "Automation of Word and Excel Files"
+					  },
+					  {
+						"id": "l7w3s36zf5xd9qqw81u",
+						"text": "Web scraping with BeautifulSoup4"
+					  },
+					  {
+						"id": "l7w3s36zmb7wjgwllup",
+						"text": "Browser automation with Selenium"
+					  },
+					  {
+						"id": "l7w3s36zwol9ofv6gt9",
+						"text": "Data Analysis and Visualization with MatPlotLib"
+					  },
+					  {
+						"id": "l7w3s36zolh8p5cp0pa",
+						"text": "Regex parsing and Task Management"
+					  },
+					  {
+						"id": "l7w3s36zfpw2mgzu0cu",
+						"text": "GUI and Gaming with Tkinter"
+					  },
+					  {
+						"id": "l7w3s36zbo9bvud3i6u",
+						"text": "And much more!"
+					  },
+					  {
+						"id": "l7w3s36z09nmyo7pvodr",
+						"text": "If you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for almost 4 years, I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over 200,000+ students from over 200 countries jumpstart their programming journeys through my courses."
+					  },
+					  {
+						"id": "l7w3s36z4cy1vfl5loq",
+						"text": "Here’s what some of my students have to say:"
+					  },
+					  {
+						"id": "l7w3s36zmwlvarlxp5s",
+						"text": "“I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!”"
+					  },
+					  {
+						"id": "l7w3s36zj759icokyn",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7w3s36zllaibvzqda",
+						"text": "“I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)”"
+					  },
+					  {
+						"id": "l7w3s36z3dqf5d1somt",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7w3s36z39gp0n3swbg",
+						"text": "\"Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.”"
+					  },
+					  {
+						"id": "l7w3s36zad1gc76ilrm",
+						"text": "So what are you waiting for? Jumpstart your programming journey and dive into the world of Python by enrolling in this course today!"
+					  }
+					]
+				  },
+				  {
+					"id": "l7yihao0cbvn22omq15",
+					"title": "Learning Python for Data Analysis and Visualization",
+					"description": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+					"link": "/course/learning-python-for-data-analysis-and-visualization/",
+					"img": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+					"instructors": [
+					  {
+						"id": "l7yihao0ulglvj6m8l",
+						"name": "Jose Portilla",
+						"job": "Head of Data Science at Pierian Training",
+						"img": "https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg",
+						"rating": 4.6,
+						"reviews": 941856,
+						"students": 3016209,
+						"courses": 54,
+						"description": "Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science, Machine Learning and Python Programming. He has publications and patents in various fields such as microfluidics, materials science, and data science. Over the course of his career he has developed a skill set in analyzing data and he hopes to use his experience in teaching and data science to help other people learn the power of programming, the ability to analyze data, and the skills needed to present the data in clear and beautiful visualizations. Currently he works as the Head of Data Science for Pierian Training and provides in-person data science and python programming training courses to employees working at top companies, including General Electric, Cigna, The New York Times, Credit Suisse, McKinsey and many more. Feel free to check out the website link to find out more information about training offerings.\n\nShow more"
+					  }
+					],
+					"rating": 4.4,
+					"enrollments": 191615,
+					"totalreviews": 18141,
+					"price": 1599.99,
+					"oldprice": 1599.99,
+					"lastupdated": "9/2019",
+					"learnitems": [
+					  {
+						"id": "l7yihamovqeodta86db",
+						"text": "Have an intermediate skill level of Python programming."
+					  },
+					  {
+						"id": "l7yihamovx1sqfi9v89",
+						"text": "Use the Jupyter Notebook Environment."
+					  },
+					  {
+						"id": "l7yihamoazmbqzovvpi",
+						"text": "Use the numpy library to create and manipulate arrays."
+					  },
+					  {
+						"id": "l7yihamofun0owve60k",
+						"text": "Use the pandas module with Python to create and structure data."
+					  },
+					  {
+						"id": "l7yihamou17s104fn6j",
+						"text": "Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets."
+					  },
+					  {
+						"id": "l7yihamoxsv1zmbk35m",
+						"text": "Create data visualizations using matplotlib and the seaborn modules with python."
+					  },
+					  {
+						"id": "l7yihamot0n2rk2zvcj",
+						"text": "Have a portfolio of various data analysis projects."
+					  }
+					],
+					"totallength": "15 sections • 110 lectures • 21h 5m total length",
+					"lectures": [
+					  {
+						"id": "l7yihan5gb7u0hkpv8j",
+						"title": "Intro to Course and Python",
+						"totalduration": "2 lectures • 7min",
+						"lessons": [
+						  {
+							"id": "l7yihanal40x6ns4vj",
+							"name": "Course Intro",
+							"duration": "03:52"
+						  },
+						  {
+							"id": "l7yihanar3yqtp47m2k",
+							"name": "Course FAQs",
+							"duration": "03:12"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihana7cje5sezqmd",
+						"title": "Setup",
+						"totalduration": "3 lectures • 33min",
+						"lessons": [
+						  {
+							"id": "l7yihanb0h12opvngf59",
+							"name": "Installation Setup and Overview",
+							"duration": "07:16"
+						  },
+						  {
+							"id": "l7yihanc5917qafz1pr",
+							"name": "IDEs and Course Resources",
+							"duration": "10:56"
+						  },
+						  {
+							"id": "l7yihancv56vvg43t4e",
+							"name": "iPython/Jupyter Notebook Overview",
+							"duration": "14:57"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanc2dq8ozqv4ym",
+						"title": "Learning Numpy",
+						"totalduration": "8 lectures • 1hr 7min",
+						"lessons": [
+						  {
+							"id": "l7yihanc7p5zjdcua7a",
+							"name": "Intro to numpy",
+							"duration": "00:24"
+						  },
+						  {
+							"id": "l7yihane07bzy70liknx",
+							"name": "Creating arrays",
+							"duration": "07:27"
+						  },
+						  {
+							"id": "l7yihaneo49dolgqvjg",
+							"name": "Using arrays and scalars",
+							"duration": "04:41"
+						  },
+						  {
+							"id": "l7yihanexv7qfj2co5m",
+							"name": "Indexing Arrays",
+							"duration": "14:19"
+						  },
+						  {
+							"id": "l7yihanex58ax0u6sd",
+							"name": "Array Transposition",
+							"duration": "04:07"
+						  },
+						  {
+							"id": "l7yihanezeg5h1m0dhs",
+							"name": "Universal Array Function",
+							"duration": "06:04"
+						  },
+						  {
+							"id": "l7yihane6tgmmgo9urs",
+							"name": "Array Processing",
+							"duration": "21:48"
+						  },
+						  {
+							"id": "l7yihane6sz4hfwrsv",
+							"name": "Array Input and Output",
+							"duration": "07:59"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanejewxqc7kxs",
+						"title": "Intro to Pandas",
+						"totalduration": "11 lectures • 2hr 12min",
+						"lessons": [
+						  {
+							"id": "l7yihanemjgccg2khgr",
+							"name": "Series",
+							"duration": "13:58"
+						  },
+						  {
+							"id": "l7yihangki3xv194lfm",
+							"name": "DataFrames",
+							"duration": "17:46"
+						  },
+						  {
+							"id": "l7yihangay3rrrkpsd4",
+							"name": "Index objects",
+							"duration": "04:59"
+						  },
+						  {
+							"id": "l7yihang4doqujt1jdw",
+							"name": "Reindex",
+							"duration": "15:54"
+						  },
+						  {
+							"id": "l7yihangmocn2nzebeo",
+							"name": "Drop Entry",
+							"duration": "05:41"
+						  },
+						  {
+							"id": "l7yihang0pr1dy7w66p",
+							"name": "Selecting Entries",
+							"duration": "10:22"
+						  },
+						  {
+							"id": "l7yihangpnrkwqksnca",
+							"name": "Data Alignment",
+							"duration": "10:14"
+						  },
+						  {
+							"id": "l7yihang6wevm4nfs0g",
+							"name": "Rank and Sort",
+							"duration": "05:38"
+						  },
+						  {
+							"id": "l7yihangqvvtfdolvrl",
+							"name": "Summary Statistics",
+							"duration": "22:35"
+						  },
+						  {
+							"id": "l7yihang1qiagzc6fgxk",
+							"name": "Missing Data",
+							"duration": "11:37"
+						  },
+						  {
+							"id": "l7yihangxeevh4got2",
+							"name": "Index Hierarchy",
+							"duration": "13:32"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihang40oga2ekoom",
+						"title": "Working with Data: Part 1",
+						"totalduration": "4 lectures • 23min",
+						"lessons": [
+						  {
+							"id": "l7yihanhxd8b3fgp7pm",
+							"name": "Reading and Writing Text Files",
+							"duration": "10:03"
+						  },
+						  {
+							"id": "l7yihanicjdfbedcqx4",
+							"name": "JSON with Python",
+							"duration": "04:12"
+						  },
+						  {
+							"id": "l7yihanifh5rscu84si",
+							"name": "HTML with Python",
+							"duration": "04:36"
+						  },
+						  {
+							"id": "l7yihaniq6ly5du6ucc",
+							"name": "Microsoft Excel files with Python",
+							"duration": "03:51"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanimelgolth3bo",
+						"title": "Working with Data: Part 2",
+						"totalduration": "13 lectures • 1hr 44min",
+						"lessons": [
+						  {
+							"id": "l7yihanjul6imi7w2i",
+							"name": "Merge",
+							"duration": "20:31"
+						  },
+						  {
+							"id": "l7yihanlvoovb74a96",
+							"name": "Merge on Index",
+							"duration": "12:36"
+						  },
+						  {
+							"id": "l7yihanl9860fkrvnjk",
+							"name": "Concatenate",
+							"duration": "09:19"
+						  },
+						  {
+							"id": "l7yihanlfo046jk492u",
+							"name": "Combining DataFrames",
+							"duration": "10:20"
+						  },
+						  {
+							"id": "l7yihanlunlfy7b4amh",
+							"name": "Reshaping",
+							"duration": "07:51"
+						  },
+						  {
+							"id": "l7yihanlcvdippvi0hv",
+							"name": "Pivoting",
+							"duration": "05:31"
+						  },
+						  {
+							"id": "l7yihanlieoz2u18lpb",
+							"name": "Duplicates in DataFrames",
+							"duration": "05:54"
+						  },
+						  {
+							"id": "l7yihanle45s5209ulg",
+							"name": "Mapping",
+							"duration": "04:12"
+						  },
+						  {
+							"id": "l7yihanljqubqpp3p2",
+							"name": "Replace",
+							"duration": "03:15"
+						  },
+						  {
+							"id": "l7yihanlnskwxtu5sd",
+							"name": "Rename Index",
+							"duration": "05:55"
+						  },
+						  {
+							"id": "l7yihanlmzpreempcn",
+							"name": "Binning",
+							"duration": "06:16"
+						  },
+						  {
+							"id": "l7yihanl8g6iz07hhs5",
+							"name": "Outliers",
+							"duration": "06:52"
+						  },
+						  {
+							"id": "l7yihanld4x1a0roczi",
+							"name": "Permutation",
+							"duration": "05:21"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanlqqkg6r258c",
+						"title": "Working with Data: Part 3",
+						"totalduration": "5 lectures • 59min",
+						"lessons": [
+						  {
+							"id": "l7yihanlpogerqfwsuo",
+							"name": "GroupBy on DataFrames",
+							"duration": "17:41"
+						  },
+						  {
+							"id": "l7yihannz9jwqbla6jf",
+							"name": "GroupBy on Dict and Series",
+							"duration": "13:21"
+						  },
+						  {
+							"id": "l7yihann3s9r245jf01",
+							"name": "Aggregation",
+							"duration": "12:42"
+						  },
+						  {
+							"id": "l7yihann841ov2w8eg6",
+							"name": "Splitting Applying and Combining",
+							"duration": "10:02"
+						  },
+						  {
+							"id": "l7yihanndpb2xm4n3ee",
+							"name": "Cross Tabulation",
+							"duration": "05:06"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihannr9tggytwvxf",
+						"title": "Data Visualization",
+						"totalduration": "7 lectures • 1hr 28min",
+						"lessons": [
+						  {
+							"id": "l7yihanndry2hn2vaeb",
+							"name": "Installing Seaborn",
+							"duration": "01:44"
+						  },
+						  {
+							"id": "l7yihanovvbw4y3i8um",
+							"name": "Histograms",
+							"duration": "09:19"
+						  },
+						  {
+							"id": "l7yihano8uyjdnddpej",
+							"name": "Kernel Density Estimate Plots",
+							"duration": "25:58"
+						  },
+						  {
+							"id": "l7yihanoemyjtaw6nn8",
+							"name": "Combining Plot Styles",
+							"duration": "06:14"
+						  },
+						  {
+							"id": "l7yihanowz5kugkal8i",
+							"name": "Box and Violin Plots",
+							"duration": "08:52"
+						  },
+						  {
+							"id": "l7yihanob6lquwtxszg",
+							"name": "Regression Plots",
+							"duration": "18:39"
+						  },
+						  {
+							"id": "l7yihano6iamzhb9eq4",
+							"name": "Heatmaps and Clustered Matrices",
+							"duration": "16:49"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihano7ycg89m481o",
+						"title": "Example Projects.",
+						"totalduration": "17 lectures • 3hr 38min",
+						"lessons": [
+						  {
+							"id": "l7yihanpwhpssoufb39",
+							"name": "Data Projects Preview",
+							"duration": "03:02"
+						  },
+						  {
+							"id": "l7yihanro12bzc060f",
+							"name": "Intro to Data Projects",
+							"duration": "04:34"
+						  },
+						  {
+							"id": "l7yihanro1tos427gp8",
+							"name": "Titanic Project - Part 1",
+							"duration": "17:06"
+						  },
+						  {
+							"id": "l7yihanry6u8xz5jba",
+							"name": "Titanic Project - Part 2",
+							"duration": "16:08"
+						  },
+						  {
+							"id": "l7yihanrnxh0876r2s8",
+							"name": "Titanic Project - Part 3",
+							"duration": "15:49"
+						  },
+						  {
+							"id": "l7yihanrouowz9cqqtn",
+							"name": "Titanic Project - Part 4",
+							"duration": "02:05"
+						  },
+						  {
+							"id": "l7yihanrog2ak28r3gf",
+							"name": "Intro to Data Project - Stock Market Analysis",
+							"duration": "03:13"
+						  },
+						  {
+							"id": "l7yihanr6bf1gme1cm",
+							"name": "Data Project - Stock Market Analysis Part 1",
+							"duration": "11:19"
+						  },
+						  {
+							"id": "l7yihanrnnmevfcndm8",
+							"name": "Data Project - Stock Market Analysis Part 2",
+							"duration": "18:06"
+						  },
+						  {
+							"id": "l7yihanr3353de6k195",
+							"name": "Data Project - Stock Market Analysis Part 3",
+							"duration": "10:24"
+						  },
+						  {
+							"id": "l7yihanr9x1spff5dsb",
+							"name": "Data Project - Stock Market Analysis Part 4",
+							"duration": "06:56"
+						  },
+						  {
+							"id": "l7yihanrtksgj9yl9c",
+							"name": "Data Project - Stock Market Analysis Part 5",
+							"duration": "27:40"
+						  },
+						  {
+							"id": "l7yihanrei4wt8n14n",
+							"name": "Data Project - Intro to Election Analysis",
+							"duration": "02:20"
+						  },
+						  {
+							"id": "l7yihanrk5202vlns6",
+							"name": "Data Project - Election Analysis Part 1",
+							"duration": "18:00"
+						  },
+						  {
+							"id": "l7yihanrijo1fljujl",
+							"name": "Data Project - Election Analysis Part 2",
+							"duration": "20:34"
+						  },
+						  {
+							"id": "l7yihanrwp87d64k5h",
+							"name": "Data Project - Election Analysis Part 3",
+							"duration": "15:04"
+						  },
+						  {
+							"id": "l7yihanr0hwtv45s8u3u",
+							"name": "Data Project - Election Analysis Part 4",
+							"duration": "25:57"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanrfd7pr55l7r",
+						"title": "Machine Learning",
+						"totalduration": "20 lectures • 5hr 51min",
+						"lessons": [
+						  {
+							"id": "l7yihansu7w0qqo25zn",
+							"name": "Introduction to Machine Learning with SciKit Learn",
+							"duration": "12:51"
+						  },
+						  {
+							"id": "l7yihanura11cs2zs8",
+							"name": "Linear Regression Part 1",
+							"duration": "17:40"
+						  },
+						  {
+							"id": "l7yihanu4860mtubz4m",
+							"name": "Linear Regression Part 2",
+							"duration": "18:21"
+						  },
+						  {
+							"id": "l7yihanux2rnmcqz5u9",
+							"name": "Linear Regression Part 3",
+							"duration": "18:45"
+						  },
+						  {
+							"id": "l7yihanuzfucccgllvk",
+							"name": "Linear Regression Part 4",
+							"duration": "22:08"
+						  },
+						  {
+							"id": "l7yihanupxri1ntjpcd",
+							"name": "Logistic Regression Part 1",
+							"duration": "14:18"
+						  },
+						  {
+							"id": "l7yihanuabvpsrs09u5",
+							"name": "Logistic Regression Part 2",
+							"duration": "14:25"
+						  },
+						  {
+							"id": "l7yihanup5ujyheh91g",
+							"name": "Logistic Regression Part 3",
+							"duration": "12:20"
+						  },
+						  {
+							"id": "l7yihanu6wl8xgr6vbm",
+							"name": "Logistic Regression Part 4",
+							"duration": "22:22"
+						  },
+						  {
+							"id": "l7yihanu9n8cwxqgf7u",
+							"name": "Multi Class Classification Part 1 - Logistic Regression",
+							"duration": "18:33"
+						  },
+						  {
+							"id": "l7yihanukpckh7sr1z",
+							"name": "Multi Class Classification Part 2 - k Nearest Neighbor",
+							"duration": "23:05"
+						  },
+						  {
+							"id": "l7yihanuslbzttdhkg",
+							"name": "Support Vector Machines Part 1",
+							"duration": "12:52"
+						  },
+						  {
+							"id": "l7yihanu7cwlay8cjem",
+							"name": "Support Vector Machines - Part 2",
+							"duration": "29:07"
+						  },
+						  {
+							"id": "l7yihanusadvufvkhrc",
+							"name": "Naive Bayes Part 1",
+							"duration": "10:03"
+						  },
+						  {
+							"id": "l7yihanuldnfas8hble",
+							"name": "Naive Bayes Part 2",
+							"duration": "12:26"
+						  },
+						  {
+							"id": "l7yihanuq93n2cfkn5e",
+							"name": "Decision Trees and Random Forests",
+							"duration": "31:47"
+						  },
+						  {
+							"id": "l7yihanu3o0f0c6k956",
+							"name": "Natural Language Processing Part 1",
+							"duration": "07:20"
+						  },
+						  {
+							"id": "l7yihanuo7fx0rzbnp",
+							"name": "Natural Language Processing Part 2",
+							"duration": "15:39"
+						  },
+						  {
+							"id": "l7yihanuj28nqi19mba",
+							"name": "Natural Language Processing Part 3",
+							"duration": "20:48"
+						  },
+						  {
+							"id": "l7yihanuz7ivqnmiy7h",
+							"name": "Natural Language Processing Part 4",
+							"duration": "16:16"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanuqvyy9giw579",
+						"title": "Appendix: Statistics Overview",
+						"totalduration": "11 lectures • 1hr 29min",
+						"lessons": [
+						  {
+							"id": "l7yihanv5it5hdcmn07",
+							"name": "Intro to Appendix B",
+							"duration": "02:44"
+						  },
+						  {
+							"id": "l7yihanw134sbrad45e9",
+							"name": "Discrete Uniform Distribution",
+							"duration": "06:11"
+						  },
+						  {
+							"id": "l7yihanwpcq5vhqbi8i",
+							"name": "Continuous Uniform Distribution",
+							"duration": "07:03"
+						  },
+						  {
+							"id": "l7yihanwjzghwfmfh2p",
+							"name": "Binomial Distribution",
+							"duration": "12:35"
+						  },
+						  {
+							"id": "l7yihanw4mym2mtw84c",
+							"name": "Poisson Distribution",
+							"duration": "10:55"
+						  },
+						  {
+							"id": "l7yihanw7uka5f7ovb8",
+							"name": "Normal Distribution",
+							"duration": "06:24"
+						  },
+						  {
+							"id": "l7yihanwmzndc7lm43e",
+							"name": "Sampling Techniques",
+							"duration": "04:54"
+						  },
+						  {
+							"id": "l7yihanw9decyar78nt",
+							"name": "T-Distribution",
+							"duration": "05:09"
+						  },
+						  {
+							"id": "l7yihanwfqt17wgve6k",
+							"name": "Hypothesis Testing and Confidence Intervals",
+							"duration": "20:08"
+						  },
+						  {
+							"id": "l7yihanwq7iokct9c2",
+							"name": "Chi Square Test and Distribution",
+							"duration": "02:53"
+						  },
+						  {
+							"id": "l7yihanw4i945u008jf",
+							"name": "Bayes Theorem",
+							"duration": "10:02"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanw3n0j7lf9sbv",
+						"title": "Appendix: SQL and Python",
+						"totalduration": "3 lectures • 28min",
+						"lessons": [
+						  {
+							"id": "l7yihanw4d2am4ytpun",
+							"name": "Introduction to SQL with Python",
+							"duration": "09:59"
+						  },
+						  {
+							"id": "l7yihanxtyct88qii8o",
+							"name": "SQL - SELECT,DISTINCT,WHERE,AND & OR",
+							"duration": "09:58"
+						  },
+						  {
+							"id": "l7yihanxy22lff1fy",
+							"name": "SQL WILDCARDS, ORDER BY, GROUP BY and Aggregate Functions",
+							"duration": "08:25"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanxh7nnn5qam6i",
+						"title": "Appendix: Web Scraping with Python",
+						"totalduration": "2 lectures • 24min",
+						"lessons": [
+						  {
+							"id": "l7yihanxy8qmtsh4i9",
+							"name": "Web Scraping Part 1",
+							"duration": "12:14"
+						  },
+						  {
+							"id": "l7yihanyvt8n43zk24",
+							"name": "Web Scraping Part 2",
+							"duration": "12:14"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanyyccil0nqbfc",
+						"title": "Appendix: Python Special Offers",
+						"totalduration": "3 lectures • 41min",
+						"lessons": [
+						  {
+							"id": "l7yihanyhy92xegi6i",
+							"name": "Python Overview Part 1",
+							"duration": "18:52"
+						  },
+						  {
+							"id": "l7yihanz1vjlu509qie",
+							"name": "Python Overview Part 2",
+							"duration": "12:18"
+						  },
+						  {
+							"id": "l7yihanzh1t58cukg8k",
+							"name": "Python Overview Part 3",
+							"duration": "10:13"
+						  }
+						]
+					  },
+					  {
+						"id": "l7yihanzbyemk9xk0kc",
+						"title": "BONUS SECTION: THANK YOU!",
+						"totalduration": "1 lecture • 1min",
+						"lessons": [
+						  {
+							"id": "l7yihanzqpqrpzhds0a",
+							"name": "Bonus Lecture",
+							"duration": "00:10"
+						  }
+						]
+					  }
+					],
+					"feedbacks": [],
+					"reviewers": [],
+					"requirements": [
+					  {
+						"id": "l7yihao0xc0fsrskv0e",
+						"text": "Basic math skills."
+					  },
+					  {
+						"id": "l7yihao09sfj1p7hm7b",
+						"text": "Basic to Intermediate Python Skills"
+					  },
+					  {
+						"id": "l7yihao0ihjdvciwtgk",
+						"text": "Have a computer (either Mac, Windows, or Linux)"
+					  },
+					  {
+						"id": "l7yihao020h3p1mfawa",
+						"text": "Desire to learn!"
+					  }
+					],
+					"descriptions": [
+					  {
+						"id": "l7yihao0q53a9ead75i",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0q6oey79bb9",
+						"text": "PLEASE READ BEFORE ENROLLING: "
+					  },
+					  {
+						"id": "l7yihao0wsw3xcrbhf",
+						"text": "1.) THERE IS AN UPDATED VERSION OF THIS COURSE: "
+					  },
+					  {
+						"id": "l7yihao082z87pyjjn",
+						"text": "\"PYTHON FOR DATA SCIENCE AND MACHINE LEARNING BOOTCAMP\" "
+					  },
+					  {
+						"id": "l7yihao0klej6ko3vy",
+						"text": "2.) IF YOU ARE A COMPLETE BEGINNER IN PYTHON-CHECK OUT MY OTHER COURSE \"COMPLETE PYTHON MASTERCLASS JOURNEY\"!"
+					  },
+					  {
+						"id": "l7yihao0f2rgpzw58gl",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0cp4ipy5dtfv",
+						"text": "CLICK ON MY PROFILE TO FIND IT. (PLEASE WATCH THE FIRST PROMO VIDEO ON THIS PAGE FOR MORE INFO)"
+					  },
+					  {
+						"id": "l7yihao0kbvax5lm12r",
+						"text": "**********************************************************************************************************"
+					  },
+					  {
+						"id": "l7yihao0nhchjvensr",
+						"text": "\n"
+					  },
+					  {
+						"id": "l7yihao0egerymfwvuj",
+						"text": "This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!"
+					  },
+					  {
+						"id": "l7yihao0a8fp267ppcf",
+						"text": "    You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data. "
+					  },
+					  {
+						"id": "l7yihao0nuj61p651b",
+						"text": "  You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers! "
+					  },
+					  {
+						"id": "l7yihao0qh3fft2xad",
+						"text": "    By the end of this course you will: "
+					  },
+					  {
+						"id": "l7yihao0dx4h78az8l",
+						"text": "  - Have an understanding of how to program in Python. "
+					  },
+					  {
+						"id": "l7yihao0gpihkx0mlqw",
+						"text": "  - Know how to create and manipulate arrays using numpy and Python. "
+					  },
+					  {
+						"id": "l7yihao0wxixbc9tcl",
+						"text": "  - Know how to use pandas to create and analyze data sets. "
+					  },
+					  {
+						"id": "l7yihao0bd527mobwyk",
+						"text": "  - Know how to use matplotlib and seaborn libraries to create beautiful data visualization. "
+					  },
+					  {
+						"id": "l7yihao0hr4bdfxjy7n",
+						"text": "  - Have an amazing portfolio of example python data analysis projects! "
+					  },
+					  {
+						"id": "l7yihao0dxgzocylmer",
+						"text": "- Have an understanding of Machine Learning and SciKit Learn!"
+					  },
+					  {
+						"id": "l7yihao035tarutvrub",
+						"text": "  With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science! "
+					  }
+					]
+				  }
+			]
+		},
+		
+		"message":{
+			"python":"Expand your career opportunities with Python"
+			},
+		"desc":{
+			"python":"Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike."
+		}
+		
+	}
+	
+}

@@ -1,22 +1,39 @@
 import './App.css';
-import {courses, messages, descs, categories} from "./coursesDB.js"
-import Category from './components/Category';
-import CategoryList from './components/CategoryList';
+import React, { useEffect, useState } from "react";
+import CoursePage from './pages/CoursePage';
+import HomePage from './pages/HomePage';
+import { Routes, Route} from "react-router-dom";
+import NavBar from './components/NavBar';
+import SearchPage from './pages/SearchPage';
 function App() {
-  console.log(messages["python"]);
+  const [Post, setPost] = useState();
+  const [Error, setError] = useState("");
+  const [IsLoading, setIsLoading] = useState(false);
+
+
+  useEffect(() => {
+    setIsLoading(true);
+    fetch("http://localhost:3000/data")
+      .then((response) => response.json())
+      .then((json) => {
+        setIsLoading(false);
+        setPost(json);
+      })
+      .catch(() => {
+        setIsLoading(false);
+        setError("Failed to load Courses");
+      });
+  }, []);
+
   return (
     <div className="App">
-      <main>
-        <section>
-          <h2>A broad selection of courses</h2>
-          <p>
-              Choose from 185,000 online video courses with new additions published
-              every month
-          </p>
-          <CategoryList categories = {categories}></CategoryList>
-          <Category courses = {courses["python"]} categoryName={"python"} message={messages["python"]} desc = {descs["python"]}></Category>
-        </section>
-      </main>
+      <NavBar />
+      <Routes>
+          <Route path="/" element={<HomePage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
+          <Route path="/course/:courseTitle" element={<CoursePage />}></Route>
+          <Route path="/search/" element={<SearchPage data={Post} Error = {Error} IsLoading = {IsLoading}/>}></Route>
+      </Routes>
+
     </div>
     
   );
