@@ -1,0 +1,18 @@
+from django import forms
+from django.core.exceptions import ValidationError
+
+
+def validate_description(desc):
+    if (len(desc) < 15):
+        raise ValidationError(
+            "description length must be at least 15 characters", code="incorrect_length")
+    elif (len(desc) > 400):
+        raise ValidationError(
+            "description length must be at most 400 characters", code="incorrect_length")
+    else:
+        return desc
+
+
+class Course(forms.Form):
+    title = forms.CharField(min_length=10, max_length=200)
+    description = forms.CharField(validators=[validate_description])
