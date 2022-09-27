@@ -13,11 +13,8 @@ import json
 import uuid
 
 
-def retrieve_all_courses(filename='C:/Users/pc/OneDrive/Desktop/Summer 2022\/bld/Web Dev/Tasks/udemy-react/server/server/course/db.json'):
-    with open(filename) as f:
-        data = json.load(f)
-        courses = data["courses"]
-        return courses
+def retrieve_all_courses():
+    pass
 
 
 def update_json(data, filename='C:/Users/pc/OneDrive/Desktop/Summer 2022\/bld/Web Dev/Tasks/udemy-react/server/server/course/db.json'):

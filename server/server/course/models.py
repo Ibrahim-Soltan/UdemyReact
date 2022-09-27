@@ -6,9 +6,9 @@ class Course (models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(max_length=400)
 
-    def __str__():
-        return title
+    def __str__(self):
+        return self.title
 
     class Meta:
         db_table = 'courses'
-        ordering = ['title', 'description']
+        ordering = ["title", "description"]
