@@ -4,7 +4,7 @@ from textwrap import indent
 from django.shortcuts import render
 from django.views import View
 from django.http import JsonResponse
-
+from .forms import Course as CourseForm
 
 # Create your views here.
 
@@ -53,12 +53,20 @@ def delete_course_by_id(id):
 
 def check_if_done(flag):
     if (flag):
-        return JsonResponse(data={}, status=202)
+        return JsonResponse(data={"message": "done"}, status=202)
     return not_found()
 
 
 def not_found():
     return JsonResponse(data={}, status=404)
+
+
+def course_is_valid(data):
+    f = CourseForm(data)
+    if f.is_valid():
+        return True
+    else:
+        return f.errors.as_json()
 
 
 class Course(View):
@@ -72,13 +80,23 @@ class Course(View):
         return JsonResponse(data=course, status=200)
 
     def post(self, request, *args, **kwargs):
-        add_course(json.loads(request.body))
-        return JsonResponse(data={}, status=201)
+        data = json.loads(request.body)
+        validation = course_is_valid(data)
+        if (validation == True):
+            add_course(data)
+            return JsonResponse(data={"message": "done"}, status=201)
+        else:
+            return JsonResponse(data=json.loads(validation), status=406)
 
     def put(self, request, *args, **kwargs):
         if (kwargs.get("id") == None):
             return not_found()
-        return check_if_done(add_course(json.loads(request.body), id=kwargs["id"]))
+        data = json.loads(request.body)
+        validation = course_is_valid(data)
+        if (validation == True):
+            return check_if_done(add_course(data, kwargs['id']))
+        else:
+            return JsonResponse(data=json.loads(validation), status=406)
 
     def delete(self, request, *args, **kwargs):
         if (kwargs.get("id") == None):
