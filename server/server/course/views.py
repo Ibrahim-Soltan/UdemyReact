@@ -16,98 +16,79 @@ import json
 import uuid
 
 
-def course_to_json(course):
-    coursedict = course.__dict__
-    coursedict.pop("_state")
-    return (coursedict)
-
-
-def retrieve_all_courses():
-    return map(course_to_json, CourseModel.objects.all())
-
-
-def search_course_by_id(id):
-    try:
-        course = CourseModel.objects.get(id=id)
-        return course_to_json(course)
-    except:
-        return None
-
-
-def add_course(courseinfo):
-    CourseModel.objects.create(title=courseinfo['title'],
-                               description=courseinfo['description'], id=uuid.uuid4())
-
-
-def not_found():
-    return JsonResponse(data={}, status=404)
-
-
-def course_is_valid(data):
-    f = CourseForm(data)
-    if f.is_valid():
-        return True
-    else:
-        return f.errors.as_json()
-
-
-def change_course_data(course, data):
-    course.title = data['title']
-    course.description = data['description']
-    course.save()
-
-
-def update_course(id, data):
-    try:
-        course = CourseModel.objects.get(id=id)
-        change_course_data(course, data)
-        return JsonResponse(data={"message": "done"}, status=202)
-    except:
-        return not_found()
-
-
-def remove_course(id):
-    try:
-        course = CourseModel.objects.get(id=id)
-        course.delete()
-        return JsonResponse(data={"message": "done"}, status=202)
-    except:
-        return not_found()
-
-
 class Course(View):
+    def not_found(self):
+        return JsonResponse(data={}, status=404)
+
+    def course_to_dict(self, course):
+        dict = course.__dict__
+        dict.pop("_state")
+        return dict
+
+    def retrieve_single_course(self, id):
+        course = CourseModel.objects.get(id=id)
+        dict = self.course_to_dict(course)
+        return JsonResponse(data=dict, status=200)
 
     def get_single_course(self, id):
-        course = search_course_by_id(id)
-        if (course == None):
-            return not_found()
-        return JsonResponse(data=course, status=200)
+        try:
+            return self.retrieve_single_course(id)
+        except:
+            return self.not_found()
+
+    def retrieve_all_courses(self):
+        courses = CourseModel.objects.all()
+        dicts = list(map(self.course_to_dict, courses))
+        return dicts
+
+    def get_all_courses(self):
+        dicts = self.retrieve_all_courses()
+        return JsonResponse(data={"courses": dicts}, status=200)
+
+    def create_course(self, f):
+        if (f.is_valid()):
+            try:
+                f.create()
+                return JsonResponse(data={"message": "done"}, status=201)
+            except:
+                return JsonResponse(data={}, status=404)
+        else:
+            return JsonResponse(data=json.loads(f.errors.as_json()), status=406)
+
+    def update_course(self, f, id):
+        if (f.is_valid()):
+            try:
+                f.update(id)
+                return JsonResponse(data={"message": "done"}, status=202)
+            except:
+                return JsonResponse(data={}, status=404)
+        else:
+            return JsonResponse(data=json.loads(f.errors.as_json()), status=406)
+
+    def remove_course(self, id):
+        try:
+            course = CourseModel.objects.get(id=id)
+            course.delete()
+            return JsonResponse(data={"message": "done"}, status=202)
+        except:
+            return self.not_found()
 
     def get(self, request, *args, **kwargs):
         if (kwargs.get('id') == None):
-            return JsonResponse(data={"courses": list(retrieve_all_courses())}, status=200)
-        return self.get_single_course(kwargs["id"])
+            return self.get_all_courses()
+        return self.get_single_course(kwargs['id'])
 
     def post(self, request, *args, **kwargs):
-        data = json.loads(request.body)
-        validation = course_is_valid(data)
-        if (validation == True):
-            add_course(data)
-            return JsonResponse(data={"message": "done"}, status=201)
-        else:
-            return JsonResponse(data=json.loads(validation), status=406)
+        f = CourseForm(json.loads(request.body))
+        return self.create_course(f)
 
     def put(self, request, *args, **kwargs):
         if (kwargs.get("id") == None):
-            return not_found()
-        data = json.loads(request.body)
-        validation = course_is_valid(data)
-        if (validation == True):
-            return update_course(kwargs['id'], data)
-        else:
-            return JsonResponse(data=json.loads(validation), status=406)
+            return self.not_found()
+        f = CourseForm(json.loads(request.body))
+        return self.update_course(f, kwargs['id'])
 
     def delete(self, request, *args, **kwargs):
         if (kwargs.get("id") == None):
-            return not_found()
-        return remove_course(kwargs['id'])
+            return self.not_found()
+        return self.remove_course(kwargs["id"])
